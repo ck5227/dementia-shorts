@@ -4,7 +4,7 @@
 
 - `episodes/YYYY-MM-DD.json`：每集腳本（標題、說明、投影片內容、來源）
 - `make_video.py`：把腳本渲染成 1080×1920 影片，背景音樂由程式自行合成（無版權素材）
-- 影片檔放在 Releases（tag 為日期），由 Metricool 抓取並發布到 YouTube
+- 影片檔放在 `videos/`（超過 60 天的舊檔會清掉），由 Metricool 抓取並發布到 YouTube
 
 用法：
 
