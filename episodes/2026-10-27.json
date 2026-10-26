@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-27",
+  "episode": 1,
+  "title_zh": "10 次大腦訓練，20 年後失智少 25%？",
+  "title_en": "10 Brain-Training Sessions, 25% Less Dementia 20 Years Later?",
+  "youtube_title": "10次大腦訓練 20年後失智風險少25%？ACTIVE試驗實證解讀 #Shorts #失智預防",
+  "youtube_description": "【每日失智預防實證 EP1】\nACTIVE 隨機對照試驗 20 年追蹤：處理速度訓練加上加強課程，與較低的失智診斷率相關。\n\nACTIVE RCT 20-year follow-up: speed-of-processing training with boosters was linked to fewer dementia diagnoses.\n\n證據等級 Evidence: 中等 Moderate（RCT，但長期結果來自醫保申報資料、僅 72% 參與者納入分析）\n\n來源 Source: Alzheimer's & Dementia: Translational Research & Clinical Interventions, 2026 (ACTIVE study, Johns Hopkins / NIH)\n\n本影片為衛教資訊，不取代個人醫療建議。\nFor education only; not medical advice.\n\n#失智預防 #阿茲海默 #實證醫學 #EBM #dementia #brainhealth #Shorts",
+  "tags": ["失智預防", "阿茲海默症", "實證醫學", "EBM", "dementia prevention", "brain training", "ACTIVE trial", "Shorts"],
+  "slides": [
+    {
+      "kind": "hook",
+      "kicker": "每日失智預防實證 · EP1",
+      "zh": "只做 10 次大腦訓練\n20 年後失智風險\n少 25%？",
+      "en": "10 brain-training sessions,\n25% less dementia 20 years later?",
+      "secs": 7
+    },
+    {
+      "kind": "study",
+      "label": "研究 Study",
+      "zh": "ACTIVE 隨機對照試驗\n2,802 位 65 歲以上長者\n追蹤 20 年",
+      "en": "ACTIVE randomized trial\n2,802 adults aged 65+\n20-year follow-up",
+      "secs": 8
+    },
+    {
+      "kind": "method",
+      "label": "介入 Intervention",
+      "zh": "處理速度訓練 10 次\n每次 60–75 分鐘\n第 11、35 個月再上加強課",
+      "en": "10 speed-of-processing sessions\n60–75 min each\nBoosters at months 11 & 35",
+      "secs": 9
+    },
+    {
+      "kind": "result",
+      "label": "結果 Result",
+      "bars": [
+        {"name": "速度訓練＋加強\nSpeed + boosters", "value": 40},
+        {"name": "對照組\nControl", "value": 49}
+      ],
+      "zh": "20 年內被診斷失智的比例\n調整後風險降低約 25%",
+      "en": "Dementia diagnosed within 20 yrs\n~25% lower risk after adjustment",
+      "secs": 10
+    },
+    {
+      "kind": "caveat",
+      "label": "限制 Caveats",
+      "zh": "• 記憶、推理訓練無同樣效果\n• 失智由醫保申報判定\n• 僅 72% 納入長期分析\n• 不代表所有腦力遊戲都有效",
+      "en": "• Memory & reasoning training: no effect\n• Dementia from claims data\n• Only 72% in long-term analysis\n• Not all brain games work",
+      "secs": 10
+    },
+    {
+      "kind": "takeaway",
+      "label": "證據等級 Evidence: 中等 Moderate",
+      "zh": "結構化的速度訓練值得一試\n但仍要搭配運動、控制血壓\n照顧聽力與社交",
+      "en": "Structured speed training is worth trying —\nalongside exercise, BP control,\nhearing care & social life",
+      "source": "Alzheimer's & Dementia: TRCI, 2026 · ACTIVE study",
+      "secs": 9
+    }
+  ]
+}
