@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-28",
+  "episode": 2,
+  "title_zh": "護理師陪你一年，中年失智風險分數能改善嗎？",
+  "title_en": "Can a Nurse-Led Program Improve Midlife Dementia Risk?",
+  "youtube_title": "護理師＋App陪伴一年 中年失智風險分數改善？HAPPI MIND試驗 #Shorts #失智預防",
+  "youtube_description": "【每日失智預防實證 EP2】\nHAPPI MIND 叢集隨機對照試驗：澳洲 31 家基層診所、400 多位 45–65 歲、有可改變危險因子的成人。介入組接受 12 個月、5 次護理師諮詢＋個人化行動計畫＋自我監測 App；對照組只拿到風險評估結果與衛教資料。12 個月時，介入組有 56% 的人失智風險分數改善，對照組為 44%，差異達統計顯著，主要來自多運動、多吃魚與體重改善。\n\nHAPPI MIND cluster randomised trial: 400+ adults aged 45–65 with modifiable risk factors in 31 Australian general practices. Five nurse consultations, a personal action plan and a self-monitoring app over 12 months improved estimated dementia risk scores in 56% vs 44% with standard care, driven mainly by more physical activity, more fish and better BMI.\n\n證據等級 Evidence: 低 Low（隨機試驗，但結果是「估計風險分數」這種替代指標，不是實際失智診斷；追蹤僅 12 個月、無法盲測；新聞稿未提供效果量與信賴區間）\n\n來源 Source: The Lancet Regional Health – Western Pacific, 2026 · HAPPI MIND trial (Monash University). DOI: 10.1016/j.lanwpc.2026.102000\n\n本影片為衛教資訊，不取代個人醫療建議。\nFor education only; not medical advice.\n\n#失智預防 #阿茲海默 #實證醫學 #EBM #dementia #brainhealth #Shorts",
+  "tags": ["失智預防", "阿茲海默症", "實證醫學", "EBM", "dementia prevention", "primary care", "HAPPI MIND", "lifestyle", "Shorts"],
+  "slides": [
+    {
+      "kind": "hook",
+      "kicker": "每日失智預防實證 · EP2",
+      "zh": "中年有人陪你\n改生活習慣一年\n失智風險會變低嗎？",
+      "en": "A year of coaching in midlife:\ndoes dementia risk drop?",
+      "secs": 7
+    },
+    {
+      "kind": "study",
+      "label": "研究 Study",
+      "zh": "HAPPI MIND 試驗\n叢集隨機對照\n31 家診所、400 多人\n45–65 歲有危險因子",
+      "en": "HAPPI MIND trial\nCluster randomised\n31 clinics, 400+ adults\nAged 45–65 with risk factors",
+      "secs": 9
+    },
+    {
+      "kind": "method",
+      "label": "介入 Intervention",
+      "zh": "12 個月 5 次護理師諮詢\n個人化行動計畫\nApp 自我監測\n對照組：只拿衛教資料",
+      "en": "5 nurse visits over 12 months\nPersonal action plan\nSelf-monitoring app\nControl: info leaflets only",
+      "secs": 9
+    },
+    {
+      "kind": "result",
+      "label": "結果 Result",
+      "bars": [
+        {"name": "護理師計畫\nNurse program", "value": 56},
+        {"name": "一般照護\nStandard care", "value": 44}
+      ],
+      "zh": "12 個月風險分數改善的比例\n主要來自運動、吃魚、體重",
+      "en": "Improved risk score at 12 months\nMore exercise, fish, better BMI",
+      "secs": 10
+    },
+    {
+      "kind": "caveat",
+      "label": "限制 Caveats",
+      "zh": "• 結果是「風險分數」\n• 不是實際失智診斷\n• 只追蹤 12 個月\n• 36 個月結果尚未發表",
+      "en": "• Outcome = estimated risk score\n• Not actual dementia diagnoses\n• Only 12 months so far\n• 36-month data still pending",
+      "secs": 10
+    },
+    {
+      "kind": "takeaway",
+      "label": "證據等級 Evidence: 低 Low",
+      "zh": "有人陪伴、定期追蹤\n比只發衛教單張更能改變習慣\n從運動和飲食開始",
+      "en": "Coaching and follow-up beat\nleaflets for changing habits —\nstart with exercise and diet",
+      "source": "Lancet Reg Health West Pac, 2026 · HAPPI MIND trial",
+      "secs": 9
+    }
+  ]
+}
