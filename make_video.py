@@ -87,7 +87,7 @@ def slide_layer(s, ep):
     d.rounded_rectangle((90, 260, 90 + lw + 60, 340), radius=40, fill=ACCENT)
     d.text((120, 270), s["label"], font=lf, fill=BG_TOP)
     top = 480
-    if s["kind"] == "result":
+    if s["kind"] == "result" and s.get("bars"):
         top = 1320
     fz = fit_size(d, s["zh"], FONT_BOLD, 76 if s["kind"] != "caveat" else 62, maxw)
     left = s["kind"] == "caveat"
@@ -185,7 +185,7 @@ def main(ep_path, out_path):
             fout = min(1, (s["secs"] - ts) / 0.4) if i < len(slides) - 1 else 1
             a = max(0, min(fin, fout))
             frame = bg.copy()
-            if s["kind"] == "result":
+            if s["kind"] == "result" and s.get("bars"):
                 draw_bars(frame, s, (ts - 0.3) / 2.0 * a if ts > 0.3 else 0)
             # slide-up text with fade
             off = int((1 - fin) * 40)

@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-29",
+  "episode": 3,
+  "title_zh": "阿斯匹靈能預防失智嗎？可能要看你的基因",
+  "title_en": "Can Aspirin Prevent Dementia? It May Depend on Your Genes",
+  "youtube_title": "每天一顆阿斯匹靈能防失智？ASPREE基因分析：少數人有效但出血加倍 #Shorts #失智預防",
+  "youtube_description": "【每日失智預防實證 EP3】\nASPREE 是一項隨機、安慰劑對照試驗，受試者為澳洲與美國的健康長者（平均 75 歲）。整體而言，每天低劑量阿斯匹靈並不能降低失智風險。這次的事後基因分析納入 13,541 人，篩檢了 5,182 種多基因分數：在「血小板數量」基因分數最高的 20% 中，阿斯匹靈組失智發生率 1.0%、安慰劑組 3.3%（HR 0.28，95% CI 0.15–0.52）；但同一群人的大出血也從 2.1% 增加到 4.4%（HR 2.13，95% CI 1.36–3.34）。換算下來，每 1,000 人年大約少 5 例失智、多 5 次大出血，總死亡率沒有差異。其餘 80% 的人，阿斯匹靈與安慰劑的失智率相近。\n\nASPREE was a randomised, placebo-controlled trial of daily 100 mg aspirin in healthy older adults (mean age 75) in Australia and the US; overall, aspirin did not lower dementia risk. This post hoc genetic analysis of 13,541 participants screened 5,182 polygenic scores. In the top 20% for a platelet-count score, dementia occurred in 1.0% on aspirin vs 3.3% on placebo (HR 0.28, 95% CI 0.15–0.52), but major bleeding rose from 2.1% to 4.4% (HR 2.13, 95% CI 1.36–3.34) — roughly 5 fewer dementia cases and 5 more major bleeds per 1,000 person-years, with no difference in mortality. Others showed no dementia benefit.\n\n證據等級 Evidence: 低 Low（資料來自隨機試驗，但這是事後、探索性的次族群分析，從上千種基因分數中篩選出來，偽陽性風險高；尚未在其他族群重複驗證，且出血風險抵消了好處。作者明確表示不應據此開始服用阿斯匹靈。）\n\n來源 Source: Alzheimer's & Dementia, 2026 · \"Platelet count polygenic scores may modify the effect of aspirin in primary prevention of dementia\" (ASPREE, Monash University). DOI: 10.1002/alz.71817\n\n本影片為衛教資訊，不取代個人醫療建議。\nFor education only; not medical advice.\n\n#失智預防 #阿茲海默 #阿斯匹靈 #實證醫學 #EBM #dementia #aspirin #brainhealth #Shorts",
+  "tags": ["失智預防", "阿茲海默症", "阿斯匹靈", "實證醫學", "EBM", "dementia prevention", "aspirin", "ASPREE", "genetics", "Shorts"],
+  "slides": [
+    {
+      "kind": "hook",
+      "kicker": "每日失智預防實證 · EP3",
+      "zh": "每天一顆阿斯匹靈\n能預防失智嗎？\n答案可能看基因",
+      "en": "Daily aspirin vs dementia:\nit may depend on your genes",
+      "secs": 7
+    },
+    {
+      "kind": "study",
+      "label": "研究 Study",
+      "zh": "ASPREE 隨機試驗\n基因再分析 13,541 人\n平均 75 歲健康長者\n澳洲與美國",
+      "en": "ASPREE randomised trial\nGenetic re-analysis, n=13,541\nHealthy adults, mean age 75\nAustralia and the US",
+      "secs": 9
+    },
+    {
+      "kind": "method",
+      "label": "方法 Methods",
+      "zh": "每天阿斯匹靈 100 毫克\n對照組：安慰劑\n中位追蹤 4.6 年\n篩檢 5,182 種基因分數",
+      "en": "Aspirin 100 mg daily vs placebo\nMedian follow-up 4.6 years\nScreened 5,182 genetic scores\nKey: platelet-count score",
+      "secs": 9
+    },
+    {
+      "kind": "result",
+      "label": "結果 Result",
+      "zh": "血小板基因分數前 20%\n失智 1.0% vs 3.3%\nHR 0.28 (0.15–0.52)\n大出血 4.4% vs 2.1%",
+      "en": "Top 20% platelet-count score\nDementia 1.0% vs 3.3% placebo\nHR 0.28 (95% CI 0.15–0.52)\nMajor bleeding 4.4% vs 2.1%",
+      "secs": 11
+    },
+    {
+      "kind": "caveat",
+      "label": "限制 Caveats",
+      "zh": "• 事後探索性分析\n• 從上千種分數篩出\n• 大出血約增加一倍\n• 其他 80% 無差異",
+      "en": "• Post hoc, exploratory\n• Picked from 1,000s of scores\n• Major bleeding about doubled\n• No benefit in the other 80%",
+      "secs": 10
+    },
+    {
+      "kind": "takeaway",
+      "label": "證據等級 Evidence: 低 Low",
+      "zh": "不要自行吃阿斯匹靈\n來預防失智\n用藥前先問醫師",
+      "en": "Don't start aspirin on your own\nto prevent dementia —\nask your doctor first",
+      "source": "Alzheimer's & Dementia, 2026 · ASPREE genetic analysis",
+      "secs": 9
+    }
+  ]
+}
