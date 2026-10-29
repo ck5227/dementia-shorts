@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-30",
+  "episode": 4,
+  "title_zh": "多讀一年書，能降低失智風險嗎？",
+  "title_en": "One More Year of School, Less Dementia Later?",
+  "youtube_title": "多讀一年書能防失智？英國學制改革自然實驗：65歲前失智診斷較少 #Shorts #失智預防",
+  "youtube_description": "【每日失智預防實證 EP4】\n1972 年英國把最低離校年齡從 15 歲提高到 16 歲，適用於 1957 年 9 月 1 日以後出生的人。研究團隊利用這個「自然實驗」，比較 UK Biobank 中生日只差一點、卻剛好落在切點兩側的約 10.7 萬人。改革讓留校到 16 歲的比例增加約 14 個百分點。追蹤到 65 歲，切點前出生者約每千人 5 例失智診斷，切點後出生者約少 2 例；而且在高基因風險者身上降幅最明顯，高、低基因風險之間的差距從約 0.18 個百分點縮小到約 0.02 個百分點。不過 65 歲前失智病例很少，估計值不精確；瑞典一項類似的學制改革研究則未看到效果。本研究測的是青少年時期的學校教育，成年後的學習是否有同樣效果，並未直接驗證。\n\nIn 1972 the UK raised the minimum school-leaving age from 15 to 16 for those born on or after 1 September 1957. Using this natural experiment in about 107,000 UK Biobank participants born near the cutoff, researchers found the reform raised staying in school to 16 by about 14 percentage points. By age 65, about 5 per 1,000 people born before the cutoff had a dementia diagnosis, and roughly 2 fewer per 1,000 among those born after; the drop was clearest in people at high genetic risk (the high- vs low-risk gap shrank from about 0.18 to 0.02 percentage points). Cases were few, so estimates are imprecise, and a similar Swedish reform showed no effect. Adult learning was not tested.\n\n證據等級 Evidence: 低 Low（自然實驗的設計比一般觀察性研究更接近因果推論，但 65 歲前病例數少、估計不精確、UK Biobank 參與者較健康且基因分析僅限歐洲血統，另一國家的類似改革結果不一致。）\n\n來源 Source: PNAS (Proceedings of the National Academy of Sciences), 2026 · Barcellos SH, et al. \"Education reduces dementia incidence and mitigates genetic risk\" (UK 1972 school-leaving age reform, UK Biobank). DOI: 10.1073/pnas.2529506123\n\n本影片為衛教資訊，不取代個人醫療建議。\nFor education only; not medical advice.\n\n#失智預防 #阿茲海默 #教育 #認知存量 #實證醫學 #EBM #dementia #education #brainhealth #Shorts",
+  "tags": ["失智預防", "阿茲海默症", "教育", "認知存量", "實證醫學", "EBM", "dementia prevention", "education", "UK Biobank", "natural experiment", "Shorts"],
+  "slides": [
+    {
+      "kind": "hook",
+      "kicker": "每日失智預防實證 · EP4",
+      "zh": "多讀一年書\n能降低失智嗎？\n英國學制改革的答案",
+      "en": "One more year of school,\nless dementia decades later?",
+      "secs": 7
+    },
+    {
+      "kind": "study",
+      "label": "研究 Study",
+      "zh": "英國 1972 學制改革\n離校年齡 15→16 歲\nUK Biobank 約10.7萬人\n自然實驗設計",
+      "en": "UK school-leaving age 15 → 16\n1972 reform, natural experiment\n~107,000 UK Biobank adults\nPNAS, 2026",
+      "secs": 9
+    },
+    {
+      "kind": "method",
+      "label": "方法 Methods",
+      "zh": "比較切點前後出生者\n生日只差一點點\n留校到16歲 +14百分點\n追蹤失智診斷到65歲",
+      "en": "Born just before vs after\nthe Sept 1, 1957 cutoff\nStayed to 16: +14 points\nDementia diagnoses to age 65",
+      "secs": 9
+    },
+    {
+      "kind": "result",
+      "label": "結果 Result",
+      "zh": "65歲前失智診斷\n切點前：約每千人5例\n切點後：約少2例\n高基因風險者最明顯",
+      "en": "Dementia diagnosis by age 65:\n~5 per 1,000 before cutoff\n~2 fewer per 1,000 after\nClearest in high genetic risk",
+      "secs": 11
+    },
+    {
+      "kind": "caveat",
+      "label": "限制 Caveats",
+      "zh": "• 65歲前病例很少\n• 估計值不精確\n• 參與者較健康\n• 瑞典類似改革無效",
+      "en": "• Few cases by age 65\n• Imprecise estimates\n• Healthier-than-average volunteers\n• Similar Swedish reform: no effect",
+      "secs": 10
+    },
+    {
+      "kind": "takeaway",
+      "label": "證據等級 Evidence: 低 Low",
+      "zh": "教育可能保護大腦\n支持孩子把書讀完\n成年後也持續學習",
+      "en": "Education may protect the brain:\nhelp kids finish school,\nand keep learning as adults",
+      "source": "PNAS, 2026 · UK school-leaving age reform",
+      "secs": 9
+    }
+  ]
+}
