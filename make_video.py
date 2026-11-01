@@ -75,25 +75,27 @@ def slide_layer(s, ep):
     d = ImageDraw.Draw(layer)
     maxw = W - 160
     if s["kind"] == "hook":
-        d.text((90, 300), s["kicker"], font=font(FONT_BOLD, 40), fill=ACCENT)
-        fz = fit_size(d, s["zh"], FONT_BOLD, 104, maxw)
-        y = draw_multiline(d, s["zh"], 620, fz, WHITE, 1.3)
-        fe = fit_size(d, s["en"], FONT_REG, 48, maxw)
+        d.text((90, 300), s["kicker"], font=font(FONT_BOLD, 50), fill=ACCENT)
+        fz = fit_size(d, s["zh"], FONT_BOLD, 124, maxw)
+        y = draw_multiline(d, s["zh"], 600, fz, WHITE, 1.3)
+        fe = fit_size(d, s["en"], FONT_REG, 46, maxw)
         draw_multiline(d, s["en"], y + 70, fe, MUTED, 1.4)
         return layer
     # label pill
-    lf = font(FONT_BOLD, 44)
+    lf = font(FONT_BOLD, 50)
     lw = d.textlength(s["label"], font=lf)
-    d.rounded_rectangle((90, 260, 90 + lw + 60, 340), radius=40, fill=ACCENT)
-    d.text((120, 270), s["label"], font=lf, fill=BG_TOP)
+    d.rounded_rectangle((90, 255, 90 + lw + 64, 345), radius=45, fill=ACCENT)
+    d.text((122, 265), s["label"], font=lf, fill=BG_TOP)
     top = 480
     if s["kind"] == "result" and s.get("bars"):
         top = 1320
-    fz = fit_size(d, s["zh"], FONT_BOLD, 76 if s["kind"] != "caveat" else 62, maxw)
+    fz = fit_size(d, s["zh"], FONT_BOLD, 92 if s["kind"] != "caveat" else 80, maxw)
     left = s["kind"] == "caveat"
     y = draw_multiline(d, s["zh"], top, fz, WHITE, 1.45, x_center=not left)
-    fe = fit_size(d, s["en"], FONT_REG, 44, maxw)
-    y = draw_multiline(d, s["en"], y + 60, fe, MUTED, 1.4, x_center=not left)
+    fe = fit_size(d, s["en"], FONT_REG, 42, maxw)
+    y = draw_multiline(d, s["en"], y + 50, fe, MUTED, 1.4, x_center=not left)
+    if s.get("stars"):
+        draw_stars(d, int(s["stars"]), y + 70)
     if s.get("source"):
         sf = font(FONT_REG, 32)
         draw_multiline(d, "Source: " + s["source"], H - 330, sf, MUTED, 1.3)
@@ -104,29 +106,56 @@ def slide_layer(s, ep):
     return layer
 
 
+def star_poly(cx, cy, r):
+    pts = []
+    for k in range(10):
+        ang = -math.pi / 2 + k * math.pi / 5
+        rr = r if k % 2 == 0 else r * 0.42
+        pts.append((cx + rr * math.cos(ang), cy + rr * math.sin(ang)))
+    return pts
+
+
+def draw_stars(d, n, y):
+    """Evidence rating: n filled of 5 stars, centered, with a plain-language caption."""
+    n = max(1, min(5, n))
+    r, gap = 58, 140
+    x0 = (W - gap * 4) / 2
+    for k in range(5):
+        cx = x0 + k * gap
+        if k < n:
+            d.polygon(star_poly(cx, y + r, r), fill=ACCENT)
+        else:
+            d.polygon(star_poly(cx, y + r, r), outline=MUTED, width=4)
+    words = {5: "很可靠 Very solid", 4: "可靠 Solid", 3: "還算可靠 Fair",
+             2: "參考就好 Early signal", 1: "還很初步 Very early"}[n]
+    cf = font(FONT_BOLD, 52)
+    draw_multiline(d, "可信度：" + words, y + 2 * r + 40, cf, WHITE, 1.3)
+
+
 def draw_bars(img, s, progress):
     d = ImageDraw.Draw(img)
     bars = s["bars"]
-    vmax = 60.0
+    vmax = max(60.0, max(b["value"] for b in bars) * 1.15)
     base_y, max_h = 1100, 600
     bw = 260
     gap = (W - 2 * bw) // 3
-    nf = font(FONT_BOLD, 34)
-    vf = font(FONT_BOLD, 88)
+    nf = font(FONT_BOLD, 40)
+    vf = font(FONT_BOLD, 92)
     for i, b in enumerate(bars):
         x0 = gap + i * (bw + gap)
         h = int(max_h * b["value"] / vmax * min(1, progress))
         col = GREEN if i == 0 else GREY_BAR
         d.rounded_rectangle((x0, base_y - h, x0 + bw, base_y), radius=24, fill=col)
         if progress > 0.15:
-            v = f"{round(b['value'] * min(1, progress))}%"
+            unit = s.get("unit", "%")
+            v = f"{round(b['value'] * min(1, progress))}{unit}"
             vw = d.textlength(v, font=vf)
             d.text((x0 + (bw - vw) / 2, base_y - h - 115), v, font=vf, fill=WHITE)
         y = base_y + 20
         for ln in b["name"].split("\n"):
             lw = d.textlength(ln, font=nf)
             d.text((x0 + (bw - lw) / 2, y), ln, font=nf, fill=MUTED)
-            y += 46
+            y += 54
 
 
 def make_music(path, secs, sr=44100):
@@ -175,7 +204,7 @@ def main(ep_path, out_path):
            "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
            "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", out_path]
     p = subprocess.Popen(cmd, stdin=subprocess.PIPE)
-    wm = font(FONT_REG, 30)
+    wm = font(FONT_BOLD, 36)
     elapsed = 0.0
     for i, s in enumerate(slides):
         n = int(s["secs"] * FPS)
@@ -198,7 +227,7 @@ def main(ep_path, out_path):
             # progress bar + watermark
             prog = (elapsed + ts) / total
             d.rectangle((0, H - 14, int(W * prog), H), fill=ACCENT)
-            d.text((90, 150), "失智預防實證 Daily Dementia EBM", font=wm, fill=MUTED)
+            d.text((90, 150), "顧好大腦 · 每日一分鐘", font=wm, fill=MUTED)
             p.stdin.write(frame.tobytes())
         elapsed += s["secs"]
     p.stdin.close()
