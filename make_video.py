@@ -88,7 +88,7 @@ def slide_layer(s, ep):
     d.text((122, 265), s["label"], font=lf, fill=BG_TOP)
     top = 480
     if s["kind"] == "result" and s.get("bars"):
-        top = 1320
+        top = 1260
     fz = fit_size(d, s["zh"], FONT_BOLD, 92 if s["kind"] != "caveat" else 80, maxw)
     left = s["kind"] == "caveat"
     y = draw_multiline(d, s["zh"], top, fz, WHITE, 1.45, x_center=not left)
@@ -135,7 +135,10 @@ def draw_stars(d, n, y):
 def draw_bars(img, s, progress):
     d = ImageDraw.Draw(img)
     bars = s["bars"]
-    vmax = max(60.0, max(b["value"] for b in bars) * 1.15)
+    if s.get("unit") == "人":
+        vmax = max(b["value"] for b in bars) * 1.25  # small counts: scale to largest bar
+    else:
+        vmax = max(60.0, max(b["value"] for b in bars) * 1.15)
     base_y, max_h = 1100, 600
     bw = 260
     gap = (W - 2 * bw) // 3
