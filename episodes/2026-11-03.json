@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-03",
+  "episode": 6,
+  "classic": true,
+  "title_zh": "血壓壓低一點，能防失智嗎？",
+  "title_en": "Can lower blood pressure protect your brain?",
+  "youtube_title": "血壓壓低一點，能防失智嗎？｜9千人經典研究的答案 #Shorts #失智預防",
+  "youtube_description": "血壓控制得更嚴格（目標收縮壓 120 以下），能不能防失智？答案：還不確定。5 年內每 1000 人失智：32 人 vs 38 人，差距還不能確定；但「腦力開始退步（還不到失智）」的人比較少：61 人 vs 75 人，還要再研究。\n你可以做：定期量血壓；血壓高就和醫師討論目標，不要自己加藥或停藥。可信度：★★★☆☆ 還算可靠。\n\n【給醫療專業人員 For professionals】\n研究：SPRINT MIND，SPRINT 隨機對照試驗之預設認知次研究。9,361 位高血壓、心血管高風險、無糖尿病與無中風病史的成人，平均 68 歲、女性 35.6%。隨機分配收縮壓目標 <120 mmHg（強化）或 <140 mmHg（標準）。治療期中位數 3.34 年，總追蹤中位數 5.11 年；SPRINT 因心血管效益提早終止。結果由不知分組的專家小組判定。\n主要結果：可能失智 149/4,678 vs 176/4,683（7.2 vs 8.6 / 1000 人年），HR 0.83（95% CI 0.67–1.04），未達統計顯著。\n次要結果：輕度認知障礙（MCI）287/4,678 vs 353/4,683（14.6 vs 18.3 / 1000 人年），HR 0.81（95% CI 0.69–0.95）；MCI 或可能失智合併結果 20.2 vs 24.1 / 1000 人年，HR 0.85（95% CI 0.74–0.97）。\n證據等級 GRADE（強化降壓預防失智）：中等 Moderate。理由：大型、結果判定盲性的隨機試驗，但提早終止使失智事件數少、主要結果不精確；延長追蹤期認知測驗完成率下降；排除糖尿病與中風患者，外推性有限。強化降壓在 SPRINT 主試驗中也增加低血壓、昏厥、急性腎損傷等不良事件（受傷性跌倒則無差異）；強化組平均收縮壓 121.5 vs 標準組 134.6 mmHg。\n\nSPRINT MIND (n=9,361, mean age 68): targeting systolic BP <120 vs <140 mm Hg did not significantly reduce probable dementia (7.2 vs 8.6 per 1000 person-years; HR 0.83, 95% CI 0.67–1.04) but reduced MCI (14.6 vs 18.3; HR 0.81, 95% CI 0.69–0.95).\n\n來源 Source: JAMA, 2019 · Williamson JD, et al. Effect of Intensive vs Standard Blood Pressure Control on Probable Dementia: A Randomized Clinical Trial (SPRINT MIND). DOI: 10.1001/jama.2018.21442\n\n本影片為衛教資訊，不取代個人醫療建議。\nFor education only; not medical advice.\n\n#失智預防 #高血壓 #血壓 #阿茲海默 #長輩健康 #經典研究 #dementia #bloodpressure #brainhealth #Shorts",
+  "tags": [
+    "失智預防",
+    "高血壓",
+    "血壓",
+    "阿茲海默症",
+    "長輩健康",
+    "經典研究",
+    "SPRINT MIND",
+    "dementia prevention",
+    "blood pressure",
+    "Shorts"
+  ],
+  "slides": [
+    {
+      "kind": "hook",
+      "kicker": "經典研究 · Classic study",
+      "zh": "血壓壓低一點\n能防失智嗎？",
+      "en": "Can lower blood pressure\nprotect your brain?",
+      "secs": 5
+    },
+    {
+      "kind": "study",
+      "label": "研究怎麼做 Who & how",
+      "zh": "美國 9,361 人\n都有高血壓\n平均 68 歲",
+      "en": "9,361 Americans\nall with high blood pressure\naverage age 68",
+      "secs": 7
+    },
+    {
+      "kind": "method",
+      "label": "他們做了什麼 What they did",
+      "zh": "一半人目標壓到 120 以下\n一半人目標 140 以下\n吃藥約 3 年，追蹤 5 年",
+      "en": "Half: aim for under 120\nHalf: aim for under 140\nPills ~3 yrs, followed 5 yrs",
+      "secs": 7
+    },
+    {
+      "kind": "result",
+      "label": "結果 What happened",
+      "answer": "答案：還不確定",
+      "bars_title": "5 年內變成失智\n每 1000 個長輩",
+      "unit": "人",
+      "bars": [
+        {
+          "name": "目標 120\nAim 120",
+          "value": 32
+        },
+        {
+          "name": "目標 140\nAim 140",
+          "value": 38
+        }
+      ],
+      "zh": "有少一點\n但還不能確定",
+      "en": "A few fewer,\nbut not proven",
+      "secs": 9
+    },
+    {
+      "kind": "result",
+      "label": "意外發現 A surprise",
+      "bars_title": "5 年內腦力開始退步（還不到失智）\n每 1000 個長輩",
+      "unit": "人",
+      "bars": [
+        {
+          "name": "目標 120\nAim 120",
+          "value": 61
+        },
+        {
+          "name": "目標 140\nAim 140",
+          "value": 75
+        }
+      ],
+      "zh": "大約少 2 成\n但還要再研究",
+      "en": "About 20% fewer,\nbut needs more study",
+      "secs": 8
+    },
+    {
+      "kind": "caveat",
+      "label": "要注意 Keep in mind",
+      "zh": "• 提早結束，病例太少\n• 研究沒收糖尿病、中風的人\n• 壓太低可能頭暈、昏倒",
+      "en": "• Ended early, few cases\n• No diabetes or stroke patients\n• Too low: dizziness, fainting",
+      "secs": 8
+    },
+    {
+      "kind": "takeaway",
+      "label": "你今天可以做 Try this",
+      "stars": 3,
+      "zh": "定期量血壓\n血壓高，和醫師討論目標\n不要自己加藥、停藥",
+      "en": "Check your blood pressure\nAsk your doctor about a target\nDon't change pills yourself",
+      "source": "JAMA, 2019 · SPRINT MIND",
+      "secs": 9
+    }
+  ]
+}
