@@ -87,8 +87,15 @@ def slide_layer(s, ep):
     d.rounded_rectangle((90, 255, 90 + lw + 64, 345), radius=45, fill=ACCENT)
     d.text((122, 265), s["label"], font=lf, fill=BG_TOP)
     top = 480
+    if s.get("answer"):
+        af = fit_size(d, s["answer"], FONT_BOLD, 96, maxw)
+        draw_multiline(d, s["answer"], 400, af, ACCENT, 1.3)
+        top = 600
+    if s.get("bars_title"):
+        tf = fit_size(d, s["bars_title"], FONT_BOLD, 50, maxw)
+        draw_multiline(d, s["bars_title"], 550, tf, WHITE, 1.3)
     if s["kind"] == "result" and s.get("bars"):
-        top = 1260
+        top = 1340
     fz = fit_size(d, s["zh"], FONT_BOLD, 92 if s["kind"] != "caveat" else 80, maxw)
     left = s["kind"] == "caveat"
     y = draw_multiline(d, s["zh"], top, fz, WHITE, 1.45, x_center=not left)
@@ -139,7 +146,7 @@ def draw_bars(img, s, progress):
         vmax = max(b["value"] for b in bars) * 1.25  # small counts: scale to largest bar
     else:
         vmax = max(60.0, max(b["value"] for b in bars) * 1.15)
-    base_y, max_h = 1100, 600
+    base_y, max_h = 1180, 470
     bw = 260
     gap = (W - 2 * bw) // 3
     nf = font(FONT_BOLD, 40)
