@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-03",
+  "episode": 7,
+  "classic": true,
+  "title_zh": "吃銀杏，能防失智嗎？",
+  "title_en": "Can ginkgo pills prevent dementia?",
+  "youtube_title": "吃銀杏能防失智嗎？｜3千位長輩追蹤6年的經典研究 #Shorts #失智預防",
+  "youtube_description": "吃銀杏能不能防失智？答案：沒有幫助。大約 6 年內每 100 人變成失智：吃銀杏 18 人 vs 吃假藥 16 人，兩組差不多，吃銀杏沒有比較少。\n你可以做：不用為了防失智買銀杏；已經在吃的人，要不要繼續吃先問醫師。可信度：★★★☆☆ 還算可靠。\n\n【給醫療專業人員 For professionals】\n研究：GEM（Ginkgo Evaluation of Memory）隨機、雙盲、安慰劑對照試驗，美國 5 個學術醫學中心，2000–2008 年。3,069 位 ≥75 歲社區長輩（平均 79.1 歲），認知正常（n=2,587）或輕度認知障礙（n=482）。隨機分配至標準化銀杏萃取物 EGb 761 每次 120 mg、每天 2 次（n=1,545），或外觀相同的安慰劑（n=1,524）。中位追蹤 6.1 年（最長約 7.3 年）。\n主要結果：全因失智 277/1,545（17.9%）vs 246/1,524（16.1%）；3.3 vs 2.9 / 100 人年；HR 1.12（95% CI 0.94–1.33），P=.21，未達統計顯著。阿茲海默症 HR 1.16，亦未達顯著。試驗原設計可偵測失智減少 30%。\n不良事件：整體不良事件、嚴重不良事件、死亡率與重大出血兩組相近；出血性中風 16 vs 8，差異未達顯著（事件數少）。\n後續研究：同一試驗的認知退化分析（Snitz, JAMA 2009）也未見減緩；法國 GuidAge 試驗（Vellas, Lancet Neurol 2012；2,854 位 ≥70 歲有記憶抱怨者隨機分配，分析 2,820 位；EGb 761 120 mg 一天 2 次，中位 5 年）主要結果為阿茲海默症：61/1,406 vs 73/1,414，HR 0.84（95% CI 0.60–1.18），P=.306，未達顯著。系統性回顧（Butler M, et al. Ann Intern Med 2018;168:52–62）亦認為銀杏等非處方保健品預防認知退化的證據不足或強度低，不建議用於認知保護。\n證據等級 GRADE（銀杏萃取物預防失智）：中等 Moderate（3 星）。理由：大型、雙盲隨機試驗，追蹤長、結果明確，GuidAge 方向一致；但試驗結束時僅約 60% 仍按時服藥（可能稀釋效果），受試者 95.5% 為白人、低教育程度者少，外推性有限；GuidAge 族群與主要結果（阿茲海默症）不完全相同。\n\nGEM trial (n=3,069, age ≥75, median 6.1 years): ginkgo biloba extract EGb 761 120 mg twice daily did not reduce dementia vs placebo (277 vs 246 cases; HR 1.12, 95% CI 0.94–1.33). The French GuidAge trial (n=2,820) was also negative.\n\n來源 Source: JAMA, 2008 · DeKosky ST, Williamson JD, Fitzpatrick AL, et al. Ginkgo biloba for Prevention of Dementia: A Randomized Controlled Trial. JAMA. 2008;300(19):2253–2262. DOI: 10.1001/jama.2008.683 · NCT00010803\n\n本影片為衛教資訊，不取代個人醫療建議。\nFor education only; not medical advice.\n\n#失智預防 #銀杏 #保健食品 #阿茲海默 #長輩健康 #經典研究 #dementia #ginkgo #brainhealth #Shorts",
+  "tags": [
+    "失智預防",
+    "銀杏",
+    "銀杏萃取",
+    "保健食品",
+    "阿茲海默症",
+    "長輩健康",
+    "經典研究",
+    "dementia prevention",
+    "ginkgo biloba",
+    "supplements",
+    "Shorts"
+  ],
+  "slides": [
+    {
+      "kind": "hook",
+      "kicker": "經典研究 · Classic study",
+      "zh": "常聽說銀杏顧腦\n吃了能防失智嗎？",
+      "en": "Ginkgo for your brain?\nCan it prevent dementia?",
+      "secs": 5
+    },
+    {
+      "kind": "study",
+      "label": "研究怎麼做 Who & how",
+      "zh": "美國 3,069 位長輩\n平均 79 歲\n沒失智，追蹤 6 年",
+      "en": "3,069 older Americans\naverage age 79\nno dementia, followed 6 yrs",
+      "secs": 7
+    },
+    {
+      "kind": "method",
+      "label": "他們做了什麼 What they did",
+      "zh": "一半人吃銀杏萃取\n早晚各 120 毫克\n一半人吃一樣的假藥",
+      "en": "Half: ginkgo extract\n120 mg, morning and night\nHalf: look-alike fake pills",
+      "secs": 7
+    },
+    {
+      "kind": "result",
+      "label": "結果 What happened",
+      "answer": "答案：沒有幫助",
+      "bars_title": "大約 6 年內變成失智\n每 100 個長輩",
+      "unit": "人",
+      "bars": [
+        {
+          "name": "吃銀杏\nGinkgo",
+          "value": 18
+        },
+        {
+          "name": "吃假藥\nFake pills",
+          "value": 16
+        }
+      ],
+      "zh": "兩組差不多\n吃銀杏沒有比較少",
+      "en": "About the same in both groups\nGinkgo did not lower it",
+      "secs": 9
+    },
+    {
+      "kind": "caveat",
+      "label": "要注意 Keep in mind",
+      "zh": "• 約 4 成後來沒再吃\n• 多是美國白人長輩\n• 法國大研究也沒幫助",
+      "en": "• About 4 in 10 stopped pills\n• Mostly white Americans\n• A French trial: no help too",
+      "secs": 8
+    },
+    {
+      "kind": "takeaway",
+      "label": "你今天可以做 Try this",
+      "stars": 3,
+      "zh": "不用為了防失智吃銀杏\n已經在吃的人\n要不要停，先問醫師",
+      "en": "No need to take ginkgo\nfor dementia. Already on it?\nAsk your doctor first",
+      "source": "JAMA, 2008 · GEM trial",
+      "secs": 9
+    }
+  ]
+}
