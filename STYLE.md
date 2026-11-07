@@ -73,3 +73,4 @@
 - 選題不一定要最新：重要的經典研究（例如 SPRINT MIND、FINGER、ACTIVE、Lancet Commission 的關鍵證據）也可以做，大約每 2–3 集穿插一集。
 - 經典集在 JSON 加上 `"classic": true`，hook 的 kicker 改用「經典研究 · Classic study」，標題可以加「經典研究」。
 - 經典研究要先查有沒有後續追蹤或更新的研究；如果結論已經被推翻或修正，要在 caveat 或說明欄講清楚。
+- 候選題目與證據評估見 `TOPICS.md`（選經典題時先看；做完在該題標「已做 EP#」）。
