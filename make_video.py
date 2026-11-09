@@ -96,6 +96,8 @@ def slide_layer(s, ep):
         draw_multiline(d, s["bars_title"], 550, tf, WHITE, 1.3)
     if s["kind"] == "result" and s.get("bars"):
         top = 1340
+    elif s.get("bars_title"):
+        top = 760  # title only (no bars): keep text below the title
     fz = fit_size(d, s["zh"], FONT_BOLD, 92 if s["kind"] != "caveat" else 80, maxw)
     left = s["kind"] == "caveat"
     y = draw_multiline(d, s["zh"], top, fz, WHITE, 1.45, x_center=not left)
