@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-16",
+  "episode": 10,
+  "title_zh": "抽菸的人，比較容易失智嗎？戒掉呢？",
+  "title_en": "Does Smoking Raise Dementia Risk? What About Quitting?",
+  "youtube_title": "抽菸比較容易失智嗎？｜還在抽的人，失智多約 3 成 #Shorts #失智預防",
+  "youtube_description": "抽菸會比較容易失智嗎？答案：可能有害。整理 61 個研究、約 280 萬人：還在抽菸的人，失智大約多 3 成（只看到有關，不能證明是抽菸造成）；已經戒掉的人，整體跟從不抽的人差不多。\n你可以做：還在抽，今天開始戒，可打免費戒菸專線 0800-636363（週一到週六 早上 9 點到晚上 9 點）。可信度：★★☆☆☆ 參考就好。\n\n【給醫療專業人員 For professionals】\n研究：系統性回顧與統合分析（random-effects），納入 61 個前瞻性世代研究、約 280 萬人（各研究 163 至 789,532 人），研究平均基線年齡 ≥50 歲、社區無失智成人，追蹤 2–40 年；北美、歐洲、亞洲為主。PROSPERO CRD42025644539，更新 Zhong 等 2015 年統合分析。\n主要結果（目前吸菸 vs 從不吸菸）：全因失智 RR 1.31（95% CI 1.23–1.39；k=39；I² 65%）；阿茲海默症 RR 1.40（1.08–1.80；k=15）；血管性失智 RR 1.52（1.20–1.93；k=9）。\n戒菸者 vs 從不吸菸：全因失智 RR 1.04（0.98–1.09；k=30），阿茲海默症 1.02（0.95–1.09），血管性失智 1.06（0.93–1.20），皆無顯著差異；但依研究平均年齡分層有差異（交互作用 P=0.021；65–74 歲 1.15 [1.00–1.32]，>74 歲 0.87 [0.78–0.98]），可能受生病才戒菸（sick-quitter）偏誤與競爭性死亡影響。戒菸者 vs 目前吸菸（29 個世代）：全因失智 RR 0.81（0.75–0.88）。\n劑量反應（12 個研究）：每天每多 10 支 RR 1.16（1.09–1.23）；每天 20 支 1.34（1.18–1.51），40 支 1.64（1.43–1.89）。依研究平均年齡分層：<65 歲 1.36（1.30–1.41）、65–74 歲 1.30（1.15–1.47）、>74 歲 1.12（0.95–1.33），交互作用 P=0.12。僅納入 ≥1,000 人研究時 RR 1.31（1.23–1.39）。\n偏誤風險（ROBINS-E）：無任何研究為低風險；46% 高風險、15% 極高風險，主要來自干擾因子與缺失資料；吸菸皆為自述。Egger 檢定 P=0.09（目前吸菸與全因失智），可能有小樣本效應。\n\n證據等級 GRADE（本頻道依原文自行評估，原作者未做 GRADE；目前吸菸與失智風險增加的關聯）：低 Low。理由：觀察性研究（起始為低）；偏誤風險高、異質性中等（I² 65%）；有劑量反應關係但不足以升級。不能推論因果，可能有殘餘干擾、反向因果與競爭性死亡。戒菸效益來自戒菸者與吸菸者的比較，並非戒菸介入試驗，戒菸年齡與戒菸年數的影響仍需研究。\n\nA meta-analysis of 61 prospective cohorts (~2.8 million adults) found current smokers had a higher risk of all-cause dementia than never-smokers (RR 1.31, 95% CI 1.23–1.39), with a dose-response; former smokers did not differ from never-smokers (RR 1.04, 0.98–1.09). Observational evidence; certainty low.\n\n來源 Source: eClinicalMedicine, 2026 (Nov 7) · Siervo M, Brain J, Beasley S, et al.; Stephan BCM. Smoking and dementia risk: an updated systematic review and meta-analysis of 61 prospective cohort studies and implications for tobacco control. eClinicalMedicine 2026;101:104310. DOI: 10.1016/j.eclinm.2026.104310 · PMID 43034842\n\n本影片為衛教資訊，不取代個人醫療建議。\nFor education only; not medical advice.\n\n#失智預防 #戒菸 #抽菸 #阿茲海默 #長輩健康 #dementia #quitsmoking #brainhealth #Shorts",
+  "tags": [
+    "失智預防",
+    "戒菸",
+    "抽菸",
+    "吸菸",
+    "阿茲海默症",
+    "長輩健康",
+    "戒菸專線",
+    "dementia prevention",
+    "smoking",
+    "quit smoking",
+    "Shorts"
+  ],
+  "slides": [
+    {
+      "kind": "hook",
+      "kicker": "今日一問 Today's question",
+      "zh": "抽菸的人\n比較容易失智嗎？\n戒掉呢？",
+      "en": "Do smokers get\ndementia more often?\nWhat if you quit?",
+      "secs": 5
+    },
+    {
+      "kind": "study",
+      "label": "研究怎麼做 Who & how",
+      "zh": "整理 61 個研究\n共約 280 萬人\n平均 50 歲以上，追蹤多年",
+      "en": "Review of 61 studies\nAbout 2.8 million people\nAge 50+ on average, many years",
+      "secs": 7
+    },
+    {
+      "kind": "method",
+      "label": "他們做了什麼 What they did",
+      "zh": "比較 3 種人：\n還在抽、已戒掉、從不抽\n後來誰比較常失智",
+      "en": "Compared smokers, ex-smokers\nand never-smokers:\nwho got dementia later?",
+      "secs": 7
+    },
+    {
+      "kind": "result",
+      "label": "結果 What happened",
+      "answer": "答案：可能有害",
+      "bars_title": "還在抽 和 從不抽：2 到 40 年內失智的機會",
+      "zh": "還在抽的人\n比較常失智，大約多 3 成\n每天抽越多，越常失智",
+      "en": "Smokers: about 30% more\ndementia than never-smokers\nMore cigarettes, more risk",
+      "secs": 9
+    },
+    {
+      "kind": "result",
+      "label": "意外發現 A surprise",
+      "bars_title": "已戒掉 和 從不抽：2 到 40 年內失智的機會",
+      "zh": "戒掉的人\n整體跟從不抽的差不多\n幾歲戒最好，還要研究",
+      "en": "Ex-smokers: overall about\nthe same as never-smokers\nBest age to quit: unclear",
+      "secs": 8
+    },
+    {
+      "kind": "caveat",
+      "label": "要注意 Keep in mind",
+      "zh": "• 只看到有關，不一定是菸害的\n• 有沒有抽都是自己說的\n• 很多研究品質不夠好",
+      "en": "• Linked, not proven to cause\n• Smoking was self-reported\n• Many studies had flaws",
+      "secs": 8
+    },
+    {
+      "kind": "takeaway",
+      "label": "你今天可以做 Try this",
+      "stars": 2,
+      "zh": "還在抽，今天開始戒\n免費戒菸專線\n0800-636363",
+      "en": "Still smoking? Start quitting\nFree Taiwan quitline:\n0800-636363",
+      "source": "eClinicalMedicine, 2026 · 61 studies",
+      "secs": 9
+    }
+  ]
+}
