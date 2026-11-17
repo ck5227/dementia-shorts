@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-18",
+  "episode": 11,
+  "classic": true,
+  "title_zh": "白內障開刀，比較不會失智嗎？",
+  "title_en": "Cataract Surgery: Less Dementia Later?",
+  "youtube_title": "白內障開刀，比較不會失智嗎？｜追蹤 3 千位長輩的經典研究 #Shorts #失智預防",
+  "youtube_description": "白內障開刀，比較不會失智嗎？答案：好像有幫助。美國追蹤 3,038 位有白內障或青光眼的長輩平均約 8 年：有開刀的人，失智大約少 3 成（只看到有關，不能證明是開刀造成的）。\n你可以做：看東西霧霧的，去眼科檢查是不是白內障；醫師建議開刀，就好好考慮、和醫師討論。可信度：★★☆☆☆ 參考就好。\n\n【給醫療專業人員 For professionals】\n研究：前瞻性世代研究 Adult Changes in Thought（ACT；美國華盛頓州 Kaiser Permanente Washington），3,038 位 ≥65 歲、收案時無失智、收案前或追蹤中有白內障或青光眼診斷者（首次白內障診斷平均 74.4 歲；女性 59%；自述白人 91%）；資料 1994–2018，共 23,554 人年（平均每人 7.8 年）；每 2 年以 CASI 篩檢，未達標者接受進一步評估，由共識小組依研究標準診斷失智。\n1,382 人（約 45%）接受白內障手術；共 853 人失智（709 人阿茲海默症）。\n主要結果：白內障手術 vs 未手術，全因失智 HR 0.71（95% CI 0.62–0.83），P<.001；阿茲海默症失智結果相似。對照：青光眼手術（不恢復視力）HR 1.08（95% CI 0.75–1.56），P=.68。主模型校正教育年數、白人、吸菸史，並依 APOE、性別、白內障診斷年齡分層；以 marginal structural model 校正更多干擾因子結果相似。研究未測量視力。\n後續：系統性回顧（Front Aging Neurosci 2023；4 個世代研究、245,299 人）白內障手術與全因失智 OR 0.77（95% CI 0.66–0.89），阿茲海默症 OR 0.60（0.35–1.02，未達顯著）；Ophthalmology 2024（Yeo 等，24 篇、558,276 人）白內障手術 vs 未處理白內障，長期認知退化 HR 0.75（0.72–0.78）；2024 Lancet Commission 將未治療的視力損失列為失智可改變危險因子（RR 1.47）。目前無隨機試驗。\n\n證據等級 GRADE（白內障手術與失智風險較低的關聯）：低 Low。理由：觀察性研究（起始為低）；青光眼手術負向對照未見關聯（但 CI 寬），其他世代研究與統合分析方向一致，但仍可能有健康使用者偏誤與殘餘干擾；參與者以白人為主；未提供手術不良事件資料。\n\nIn a prospective cohort of 3,038 adults aged 65+ with a cataract or glaucoma diagnosis (ACT study), cataract extraction was associated with lower dementia risk (HR 0.71, 95% CI 0.62–0.83); glaucoma surgery was not (HR 1.08, 0.75–1.56). Observational evidence; certainty low.\n\n來源 Source: JAMA Internal Medicine, 2022 · Lee CS, Gibbons LE, Lee AY, et al. Association Between Cataract Extraction and Development of Dementia. JAMA Intern Med 2022;182(2):134-141. DOI: 10.1001/jamainternmed.2021.6990 · PMID 34870676\n\n本影片為衛教資訊，不取代個人醫療建議。\nFor education only; not medical advice.\n\n#失智預防 #白內障 #白內障手術 #視力 #阿茲海默 #長輩健康 #經典研究 #dementia #cataract #brainhealth #Shorts",
+  "tags": [
+    "失智預防",
+    "白內障",
+    "白內障手術",
+    "視力",
+    "眼科",
+    "阿茲海默症",
+    "長輩健康",
+    "經典研究",
+    "dementia prevention",
+    "cataract surgery",
+    "vision",
+    "Shorts"
+  ],
+  "slides": [
+    {
+      "kind": "hook",
+      "kicker": "經典研究 · Classic study",
+      "zh": "看東西霧霧的白內障\n開刀處理後\n比較不會失智嗎？",
+      "en": "Cloudy eyes from cataracts:\ndoes surgery mean\nless dementia later?",
+      "secs": 5
+    },
+    {
+      "kind": "study",
+      "label": "研究怎麼做 Who & how",
+      "zh": "美國 3,038 位 65 歲以上長輩\n有白內障或青光眼\n平均追蹤約 8 年",
+      "en": "3,038 US adults, age 65+\nWith cataracts or glaucoma\nFollowed about 8 years",
+      "secs": 7
+    },
+    {
+      "kind": "method",
+      "label": "他們做了什麼 What they did",
+      "zh": "比較白內障有開刀、沒開刀\n每 2 年做一次腦力測驗\n看誰比較常失智",
+      "en": "Cataract surgery vs. none\nThinking tests every 2 years\nWho got dementia more?",
+      "secs": 7
+    },
+    {
+      "kind": "result",
+      "label": "結果 What happened",
+      "answer": "答案：好像有幫助",
+      "bars_title": "白內障有開刀 和 沒開刀\n追蹤約 8 年，失智的機會",
+      "zh": "有開刀的 1,382 人\n失智大約少 3 成\n不能證明是開刀造成的",
+      "en": "The 1,382 who had surgery:\nabout 30% less dementia\nA link, not proof",
+      "secs": 9
+    },
+    {
+      "kind": "result",
+      "label": "意外發現 A surprise",
+      "bars_title": "青光眼開刀（不會看更清楚）\n和 沒開刀：失智的機會",
+      "zh": "沒看到差別\n好處可能來自看得清楚\n還要再研究",
+      "en": "Glaucoma surgery: no clear gap\nClear sight may be the key\nNeeds more study",
+      "secs": 8
+    },
+    {
+      "kind": "caveat",
+      "label": "要注意 Keep in mind",
+      "zh": "• 只看到有關，不是證明\n• 開刀的人可能本來較健康\n• 大多是美國白人",
+      "en": "• A link, not proof\n• Surgery group may be healthier\n• Mostly white Americans",
+      "secs": 8
+    },
+    {
+      "kind": "takeaway",
+      "label": "你今天可以做 Try this",
+      "stars": 2,
+      "zh": "看東西霧霧的\n去眼科檢查白內障\n醫師建議開刀，好好考慮",
+      "en": "Blurry vision? See an eye doctor\nIf surgery is advised,\ntalk it over with your doctor",
+      "source": "JAMA Intern Med, 2022 · ACT study",
+      "secs": 9
+    }
+  ]
+}
