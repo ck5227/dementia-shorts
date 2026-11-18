@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-19",
+  "episode": 12,
+  "title_zh": "白天很少動、晚上又睡不好，比較容易失智嗎？",
+  "title_en": "Little Daytime Activity and Poor Sleep: More Dementia?",
+  "youtube_title": "白天少動、晚上睡不好，比較容易失智？｜英國追蹤 4 千位長輩 12 年 #Shorts #失智預防",
+  "youtube_description": "白天很少動、晚上又睡不好，比較容易失智嗎？答案：可能有害。英國約 4 千位 60 歲以上長輩戴像手錶的機器 9 天，追蹤約 12 年：作息亂、白天很少動、睡得短又常醒的人，失智機會大約是作息規律、常動、睡得好的人的 2 倍（只看到有關，不能證明是它造成的）。\n你可以做：白天固定時間出門走走，每天差不多時間睡覺、起床；長期睡不好，先問醫師（還沒有研究證明改作息就能防失智）。可信度：★★☆☆☆ 參考就好。\n\n【給醫療專業人員 For professionals】\n研究：前瞻性族群世代研究（英國 Whitehall II，2012–2013 年加速度計子研究）。3,973 位 ≥60 歲、收案時無失智者（年齡中位數 68.4 歲，IQR 64.7–74.0；女性 26%），手腕 GENEActiv 加速度計連續 9 天；由 36 個指標、4 個面向（活動-休息節律 RAR、白天身體活動、睡眠、時型）分出 9 種睡眠-清醒週期（SWC）profile。失智由 3 個英國國家登錄連結（ICD-10）判定，追蹤中位數 12.3 年（至 2025 年 3 月），共 379 人失智。認知分析 3,806 人（3 次測驗，10 年整體認知 z 分數）。\n主要結果（以 profile 3：節律穩定、輕度活動較多、睡眠較長且較不片段 為參考；完全校正模型）：profile 7（節律差、活動少、睡眠短且效率最差、最片段）HR 1.94（95% CI 1.32–2.84）；profile 8（節律紊亂、白天活動量高、睡眠不安穩）HR 1.96（1.27–3.03）。profile 9（節律與活動最差、久坐最多）model 1 HR 1.61（1.08–2.42），完全校正後 1.49（0.98–2.27）。認知：profile 7 十年多退 −0.14（−0.26 to −0.02），profile 9 多退 −0.28（−0.44 to −0.13）。\n敏感度分析：加入 APOE 與血液生物標記（n=3,225）profile 7 HR 2.01（1.30–3.12）、profile 8 HR 1.78（1.10–2.89）；排除前 5 年病例後 profile 7 HR 1.63（1.03–2.56）、profile 8 HR 2.29（1.41–3.70）。各 profile 人數與病例數未於正文列出。\n限制：觀察性研究，可能有殘餘干擾與反向因果（失智前期即可能改變作息）；參與者較一般族群健康、以男性為主；部分 profile 檢定力不足；無法分析失智亞型；無睡眠疾病資料；profile 9 比例風險假設不成立；profile 為資料導向分群。作者指出仍需介入研究確認改善作息、活動與睡眠能否降低失智風險。\n\n證據等級 GRADE（本頻道依原文自行評估，原作者未做 GRADE）：低 Low。理由：單一觀察性世代研究（起始為低），效果量約 2 倍、排除前 5 年後仍存在，但信賴區間寬、有反向因果疑慮，不升級也不降級。\n\nIn 3,973 UK adults aged 60+ (Whitehall II) followed a median 12.3 years, a wrist-worn accelerometer profile with poor rest-activity rhythm, low activity and short fragmented sleep was linked to about twice the dementia risk versus a robust-rhythm, active, good-sleep profile (HR 1.94, 95% CI 1.32–2.84). Observational; certainty low.\n\n來源 Source: JAMA Network Open, 2026 (Nov 18) · Vidil S, …, Sabia S. Sleep-Wake Cycle Profiles and Incident Dementia and Cognitive Decline in Older Adults. JAMA Netw Open. 2026;9(11). DOI: 10.1001/jamanetworkopen.2026.44843\n\n本影片為衛教資訊，不取代個人醫療建議。\nFor education only; not medical advice.\n\n#失智預防 #睡眠 #作息 #失眠 #阿茲海默 #長輩健康 #dementia #sleep #brainhealth #Shorts",
+  "tags": [
+    "失智預防",
+    "睡眠",
+    "作息",
+    "失眠",
+    "睡不好",
+    "活動",
+    "阿茲海默症",
+    "長輩健康",
+    "dementia prevention",
+    "sleep",
+    "Shorts"
+  ],
+  "slides": [
+    {
+      "kind": "hook",
+      "kicker": "今日一問 Today's question",
+      "zh": "白天很少動\n晚上又睡不好\n比較容易失智嗎？",
+      "en": "Little activity by day,\npoor sleep at night:\nmore dementia later?",
+      "secs": 5
+    },
+    {
+      "kind": "study",
+      "label": "研究怎麼做 Who & how",
+      "zh": "英國約 4 千位長輩\n都在 60 歲以上\n追蹤約 12 年",
+      "en": "About 4,000 people in the UK\nAll age 60 or older\nFollowed about 12 years",
+      "secs": 7
+    },
+    {
+      "kind": "method",
+      "label": "他們做了什麼 What they did",
+      "zh": "手上戴像手錶的機器 9 天\n記錄白天活動和晚上睡覺\n照作息分成 9 種人來比",
+      "en": "Wore a watch-like device 9 days\nIt tracked activity and sleep\nSorted into 9 routine types",
+      "secs": 7
+    },
+    {
+      "kind": "result",
+      "label": "結果 What happened",
+      "answer": "答案：可能有害",
+      "bars_title": "作息亂、少動、睡不好的人\n和作息好的人比：\n約 12 年內得失智的機會",
+      "zh": "作息亂、白天很少動\n又睡得短、常醒來的人\n失智機會大約 2 倍",
+      "en": "Messy routine, little activity,\nshort broken sleep:\nabout twice the dementia",
+      "secs": 9
+    },
+    {
+      "kind": "result",
+      "label": "意外發現 A surprise",
+      "bars_title": "白天很會動、晚上睡不穩的人\n和作息好的人比（還要再研究）",
+      "zh": "白天很會動\n但晚上睡不安穩的人\n失智機會也大約 2 倍",
+      "en": "Busy by day,\nrestless sleep at night:\nalso about twice the risk",
+      "secs": 8
+    },
+    {
+      "kind": "caveat",
+      "label": "要注意 Keep in mind",
+      "zh": "• 只看到有關，不是證明\n• 可能失智前，作息就先亂\n• 改作息有沒有用，還沒試過",
+      "en": "• A link, not proof\n• Early dementia may upset sleep\n• Not yet tested as a fix",
+      "secs": 8
+    },
+    {
+      "kind": "takeaway",
+      "label": "你今天可以做 Try this",
+      "stars": 2,
+      "zh": "白天固定時間出門走走\n每天差不多時間睡、起床\n長期睡不好，先問醫師",
+      "en": "Go out for a walk at set times\nSleep and wake at set times\nPoor sleep? Ask your doctor",
+      "source": "JAMA Netw Open, 2026 · Whitehall II",
+      "secs": 9
+    }
+  ]
+}
