@@ -1,0 +1,23 @@
+{
+  "videoId": "J3DEn0Q-epE",
+  "url": "https://youtube.com/shorts/J3DEn0Q-epE",
+  "uploadedAt": "2026-11-20T06:42:24+08:00",
+  "requested": {
+    "selfDeclaredMadeForKids": false,
+    "containsSyntheticMedia": false,
+    "embeddable": true,
+    "license": "youtube",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-19T23:30:00.000Z"
+  },
+  "returned": {
+    "uploadStatus": "uploaded",
+    "privacyStatus": "private",
+    "publishAt": "2026-11-19T23:30:00Z",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false,
+    "containsSyntheticMedia": false
+  }
+}
