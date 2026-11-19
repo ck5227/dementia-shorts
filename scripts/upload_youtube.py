@@ -12,6 +12,7 @@ import datetime as dt
 import json
 import os
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -21,8 +22,13 @@ MAX_DESC_BYTES = 4900  # YouTube limit is 5000 bytes
 
 def post_json(url, data, headers=None, method="POST"):
     req = urllib.request.Request(url, data=data, method=method, headers=headers or {})
-    with urllib.request.urlopen(req, timeout=600) as r:
-        return r.status, dict(r.headers), r.read()
+    try:
+        with urllib.request.urlopen(req, timeout=600) as r:
+            return r.status, dict(r.headers), r.read()
+    except urllib.error.HTTPError as e:
+        # Print Google's error body (e.g. invalid_grant / invalid_client); it contains no secrets.
+        print(f"HTTP {e.code} from {url.split('?')[0]}: {e.read().decode('utf-8', 'replace')}", file=sys.stderr)
+        raise
 
 
 def access_token():
