@@ -1,0 +1,48 @@
+name: Upload video from URL to YouTube
+
+# Used by the BESTEP scheduled tasks (videos are release assets in ck5227/bestep-daily).
+on:
+  workflow_dispatch:
+    inputs:
+      video_url:
+        description: "Public URL of the mp4 (ck5227 GitHub release asset)"
+        required: true
+      title:
+        description: "YouTube title"
+        required: true
+      description:
+        description: "YouTube description"
+        required: false
+      tags:
+        description: "Comma-separated tags"
+        required: false
+      privacy:
+        description: "public / unlisted / private"
+        required: false
+        default: public
+
+permissions:
+  contents: read
+
+concurrency:
+  group: youtube-upload-url
+  cancel-in-progress: false
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts
+      - name: Upload
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          VIDEO_URL: ${{ github.event.inputs.video_url }}
+          TITLE: ${{ github.event.inputs.title }}
+          DESCRIPTION: ${{ github.event.inputs.description }}
+          TAGS: ${{ github.event.inputs.tags }}
+          PRIVACY: ${{ github.event.inputs.privacy }}
+        run: python3 scripts/upload_url.py
