@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-20",
+  "episode": 13,
+  "classic": true,
+  "title_zh": "血壓控制好，真的比較不會失智嗎？",
+  "title_en": "Good Blood Pressure Control: Less Dementia?",
+  "youtube_title": "血壓控制好，真的比較不會失智？｜3 萬 4 千人比 4 年的經典研究 #Shorts #失智預防",
+  "youtube_description": "血壓控制好，比較不會失智嗎？答案：有幫助。中國農村 326 個村子、約 3 萬 4 千位血壓高、沒控制好的人分兩組比 4 年：由村醫開藥、調藥，目標把血壓降到 130/80 以下的那組，失智大約少 1 成半（每 1000 人約 46 人比 54 人）。\n你可以做：在家量血壓並記下來，回診給醫師看；降血壓藥照醫師說的按時吃，不要自己停；目標要多低先問醫師，頭暈要告訴醫師。可信度：★★★☆☆ 還算可靠。\n\n【給醫療專業人員 For professionals】\n研究：China Rural Hypertension Control Project（CRHCP）開放標籤、結果盲性判定、群集隨機對照試驗。中國農村 326 個村子（介入 163、一般照顧 163），33,995 位 ≥40 歲未控制高血壓者（介入 17,407、對照 16,588；平均 63 歲、女性 61%、約 23% 未讀完小學）。介入：非醫師的村醫依簡單階梯式流程開始並調整降壓藥，目標 SBP <130 且 DBP <80 mmHg，另有降價或免費藥物、健康衛教（生活型態、居家量血壓、服藥順從）與基層醫師督導；對照為一般照顧。\n血壓：48 個月淨降 SBP 22.0 mmHg（95% CI 20.6–23.4）、DBP 9.3 mmHg（8.7–10.0）；48 個月約 128/73 vs 148/81 mmHg。\n主要結果（48 個月全因失智，由不知分組的神經科醫師評估、專家小組判定）：RR 0.85（95% CI 0.76–0.95），P=0.0035。失智 668 人（4.59%）vs 734 人（5.40%）（以實際接受失智評估者為分母；數字引自 UK SMC 專家評論與新聞報導，本頻道未能開啟原文表格核對）。\n安全性：嚴重不良事件 RR 0.94（0.91–0.98），介入組較少；需就醫的跌倒（166 vs 157）與昏倒（127 vs 102）無顯著差異（AHA 2023 會議資料）。低血壓：36 個月內介入組較多（1.75% vs 0.89%，Lancet 2023），7 年追蹤也報告低血壓與輕度低血鉀較多。\n後續：ESC Congress 2026 會議報告（4 年介入＋3 年觀察，共 7 年）失智 8.85% vs 10.55%，adjusted RR 0.85（0.78–0.91），尚待期刊正式發表。本頻道 EP6 SPRINT MIND（JAMA 2019）可能失智 HR 0.83（0.67–1.04）未達顯著，本試驗規模較大且主要結果為失智。\n\n證據等級 GRADE（降血壓預防失智）：中等 Moderate。理由：大型隨機試驗、主要結果為失智且達顯著、結果判定者盲性；但為開放標籤、研究開始時未評估認知功能、介入同時包含生活型態衛教（無法單獨歸因於降壓），且族群為中國農村、平均 63 歲（外推性受限）。\n\nIn the CRHCP cluster-randomized trial (326 villages, 33,995 adults aged ≥40 with uncontrolled hypertension in rural China), village-doctor-led intensive BP lowering (target <130/80 mmHg) for 48 months reduced all-cause dementia (RR 0.85, 95% CI 0.76–0.95). Certainty moderate.\n\n來源 Source: Nature Medicine, 2025 · He J, Zhao C, Zhong S, et al. Blood pressure reduction and all-cause dementia in people with uncontrolled hypertension: an open-label, blinded-endpoint, cluster-randomized trial. DOI: 10.1038/s41591-025-03616-8 · NCT03527719\n\n本影片為衛教資訊，不取代個人醫療建議。\nFor education only; not medical advice.\n\n#失智預防 #高血壓 #血壓 #量血壓 #失智症 #長輩健康 #經典研究 #dementia #bloodpressure #brainhealth #Shorts",
+  "tags": [
+    "失智預防",
+    "高血壓",
+    "血壓",
+    "量血壓",
+    "降血壓藥",
+    "失智症",
+    "長輩健康",
+    "經典研究",
+    "dementia prevention",
+    "blood pressure",
+    "hypertension",
+    "Shorts"
+  ],
+  "slides": [
+    {
+      "kind": "hook",
+      "kicker": "經典研究 · Classic study",
+      "zh": "血壓控制好\n真的比較\n不會失智嗎？",
+      "en": "Keep blood pressure down:\nless dementia\nlater on?",
+      "secs": 5
+    },
+    {
+      "kind": "study",
+      "label": "研究怎麼做 Who & how",
+      "zh": "中國農村 3 萬 4 千人\n血壓高、沒控制好\n平均 63 歲，追蹤 4 年",
+      "en": "About 34,000 in rural China\nHigh blood pressure\nAverage age 63, 4 years",
+      "secs": 7
+    },
+    {
+      "kind": "method",
+      "label": "他們做了什麼 What they did",
+      "zh": "326 個村子分兩組\n一組村醫幫忙開藥、調藥\n目標 130/80 以下",
+      "en": "326 villages, two groups\nVillage doctors adjusted pills\nGoal: under 130/80",
+      "secs": 8
+    },
+    {
+      "kind": "result",
+      "label": "結果 What happened",
+      "answer": "答案：有幫助",
+      "bars_title": "4 年內變成失智（每 1000 人）",
+      "zh": "上面的血壓：128 比 148\n失智大約少 1 成半",
+      "en": "Top number: 128 vs. 148\nAbout 15% less dementia",
+      "secs": 10,
+      "unit": "人",
+      "bars": [
+        {
+          "name": "村醫幫忙降壓\nVillage doctor care",
+          "value": 46
+        },
+        {
+          "name": "照平常看病\nUsual care",
+          "value": 54
+        }
+      ]
+    },
+    {
+      "kind": "caveat",
+      "label": "要注意 Keep in mind",
+      "zh": "• 只在中國農村做\n• 也有教生活習慣，不只吃藥\n• 開始前沒先測記性",
+      "en": "• Only in rural China\n• Habit tips too, not just pills\n• Memory not tested at start",
+      "secs": 8
+    },
+    {
+      "kind": "takeaway",
+      "label": "你今天可以做 Try this",
+      "stars": 3,
+      "zh": "在家量血壓、記下來\n藥按時吃，別自己停\n頭暈、目標多低，問醫師",
+      "en": "Check blood pressure at home\nTake pills as told; don't stop\nDizzy? Ask your doctor",
+      "source": "Nature Medicine, 2025 · CRHCP trial",
+      "secs": 10
+    }
+  ]
+}
