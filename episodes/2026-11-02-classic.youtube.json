@@ -1,0 +1,21 @@
+{
+  "videoId": "OmgORPqYuQ8",
+  "url": "https://youtube.com/shorts/OmgORPqYuQ8",
+  "uploadedAt": "2026-11-19T11:10:54+08:00",
+  "requested": {
+    "selfDeclaredMadeForKids": false,
+    "containsSyntheticMedia": false,
+    "embeddable": true,
+    "license": "youtube",
+    "privacyStatus": "public"
+  },
+  "returned": {
+    "uploadStatus": "uploaded",
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false,
+    "containsSyntheticMedia": false
+  }
+}
