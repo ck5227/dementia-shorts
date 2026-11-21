@@ -41,11 +41,14 @@ jobs:
           repository: ck5227/bestep-daily
           path: bd
           sparse-checkout: pipeline
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
       - name: Install tools
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg fonts-noto-cjk >/dev/null
-          pip install -q edge-tts pillow
+          pip install -q edge-tts==7.3.1 pillow==12.3.0
       - name: Render and upload
         run: |
           set -e
@@ -60,16 +63,16 @@ jobs:
           fi
           echo "To render: $dates"
           for d in $dates; do
-            python3 bd/pipeline/validate_mock.py "bestep/mock-$d.json"
-            python3 bd/pipeline/make_video.py "bestep/mock-$d.json" out
+            python bd/pipeline/validate_mock.py "bestep/mock-$d.json"
+            python bd/pipeline/make_video.py "bestep/mock-$d.json" out
             ls -la out
             if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then echo "dry run: skip upload"; continue; fi
             export VIDEO_PATH="out/bestep-mock-$d.mp4"
-            export TITLE=$(python3 -c "import json;print(json.load(open('out/bestep-mock-$d.txt',encoding='utf-8'))['title'])")
-            export DESCRIPTION=$(python3 -c "import json;print(json.load(open('out/bestep-mock-$d.txt',encoding='utf-8'))['description'])")
+            export TITLE=$(python -c "import json;print(json.load(open('out/bestep-mock-$d.txt',encoding='utf-8'))['title'])")
+            export DESCRIPTION=$(python -c "import json;print(json.load(open('out/bestep-mock-$d.txt',encoding='utf-8'))['description'])")
             export TAGS="BESTEP,英文聽力,模擬考,大學英文,英檢"
             export PRIVACY=public
-            python3 scripts/upload_url.py | tee "out/result-$d.txt"
+            python scripts/upload_url.py | tee "out/result-$d.txt"
             grep '^RESULT ' "out/result-$d.txt" | sed 's/^RESULT //' > "bestep/mock-$d.youtube.json"
           done
       - uses: actions/upload-artifact@v4
