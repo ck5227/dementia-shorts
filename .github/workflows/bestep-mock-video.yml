@@ -1,0 +1,87 @@
+name: BESTEP mock test video
+
+# The cloud mock-test routine pushes bestep/mock-DATE.json (the full mock test).
+# This renders its listening video with ck5227/bestep-daily's pipeline/make_video.py,
+# uploads it to YouTube as public, and commits bestep/mock-DATE.youtube.json.
+on:
+  push:
+    branches: [main]
+    paths: ["bestep/mock-*.json"]
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Mock date to render (YYYY-MM-DD). Empty = all pending."
+        required: false
+      dry_run:
+        description: "Render only, do not upload"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bestep-mock-video
+  cancel-in-progress: false
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      BESTEP_FONT: /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
+      BESTEP_FONT_BOLD: /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: ck5227/bestep-daily
+          path: bd
+          sparse-checkout: pipeline
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-noto-cjk >/dev/null
+          pip install -q edge-tts pillow
+      - name: Render and upload
+        run: |
+          set -e
+          dates="${{ github.event.inputs.date }}"
+          if [ -z "$dates" ]; then
+            for f in bestep/mock-*.json; do
+              case "$f" in *.youtube.json) continue;; esac
+              d=$(basename "$f" .json); d=${d#mock-}
+              [ -f "bestep/mock-$d.youtube.json" ] && continue
+              dates="$dates $d"
+            done
+          fi
+          echo "To render: $dates"
+          for d in $dates; do
+            python3 bd/pipeline/validate_mock.py "bestep/mock-$d.json"
+            python3 bd/pipeline/make_video.py "bestep/mock-$d.json" out
+            ls -la out
+            if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then echo "dry run: skip upload"; continue; fi
+            export VIDEO_PATH="out/bestep-mock-$d.mp4"
+            export TITLE=$(python3 -c "import json;print(json.load(open('out/bestep-mock-$d.txt',encoding='utf-8'))['title'])")
+            export DESCRIPTION=$(python3 -c "import json;print(json.load(open('out/bestep-mock-$d.txt',encoding='utf-8'))['description'])")
+            export TAGS="BESTEP,英文聽力,模擬考,大學英文,英檢"
+            export PRIVACY=public
+            python3 scripts/upload_url.py | tee "out/result-$d.txt"
+            grep '^RESULT ' "out/result-$d.txt" | sed 's/^RESULT //' > "bestep/mock-$d.youtube.json"
+          done
+      - uses: actions/upload-artifact@v4
+        if: ${{ github.event.inputs.dry_run == 'true' }}
+        with:
+          name: rendered
+          path: out/*.mp4
+          retention-days: 3
+      - name: Commit upload records
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898237+github-actions[bot]@users.noreply.github.com"
+          git add bestep/*.youtube.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Record BESTEP mock YouTube upload" && git pull --rebase origin main && git push)

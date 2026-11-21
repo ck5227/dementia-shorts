@@ -1,0 +1,1731 @@
+{
+ "type": "mock",
+ "id": "mock-2026-11-19",
+ "date": "2026-11-19",
+ "theme": "全真模擬考 第 6 回",
+ "words": [
+  {
+   "en": "accommodate",
+   "pos": "v.",
+   "zh": "容納；提供住宿",
+   "ex": "The seminar room can accommodate up to forty people."
+  },
+  {
+   "en": "mandatory",
+   "pos": "adj.",
+   "zh": "強制的；必須的",
+   "ex": "Attendance at the orientation is mandatory."
+  },
+  {
+   "en": "reimburse",
+   "pos": "v.",
+   "zh": "償還；核銷（費用）",
+   "ex": "The department will reimburse you for your travel expenses."
+  },
+  {
+   "en": "priority",
+   "pos": "n.",
+   "zh": "優先權",
+   "ex": "Seniors are given priority when registering for courses."
+  },
+  {
+   "en": "preliminary",
+   "pos": "adj.",
+   "zh": "初步的",
+   "ex": "These are only preliminary results."
+  },
+  {
+   "en": "decline",
+   "pos": "v.",
+   "zh": "婉拒；下降",
+   "ex": "She had to decline the invitation."
+  },
+  {
+   "en": "approximately",
+   "pos": "adv.",
+   "zh": "大約",
+   "ex": "The walk takes approximately ten minutes."
+  },
+  {
+   "en": "valid",
+   "pos": "adj.",
+   "zh": "有效的",
+   "ex": "Your student card is valid for four years."
+  },
+  {
+   "en": "enrollment",
+   "pos": "n.",
+   "zh": "註冊（人數）；報名人數",
+   "ex": "The class was canceled because of low enrollment."
+  },
+  {
+   "en": "voucher",
+   "pos": "n.",
+   "zh": "禮券；兌換券",
+   "ex": "You will receive a voucher after the second session."
+  },
+  {
+   "en": "lottery",
+   "pos": "n.",
+   "zh": "抽籤；樂透",
+   "ex": "Rooms are assigned by lottery."
+  },
+  {
+   "en": "light pollution",
+   "pos": "n.",
+   "zh": "光害",
+   "ex": "Light pollution confuses migrating birds."
+  }
+ ],
+ "listening": [
+  {
+   "id": "L1",
+   "part": 1,
+   "audio": [
+    {
+     "s": "W",
+     "t": "How long can I keep these reference books?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l01",
+     "prompt": "",
+     "options": [
+      "On the third floor, near the stairs.",
+      "Actually, they have to stay in the library.",
+      "Yes, I've kept them since last week."
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "問句 How long 詢問可借多久，(B) 回答「其實這些書只能留在館內」，間接說明參考書不能外借，最合理。(A) 回答地點，答非所問；(C) 用 Yes 回答 Wh- 問句，且重複 keep 只是干擾。"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "part": 1,
+   "audio": [
+    {
+     "s": "M",
+     "t": "Have you signed up for the lab safety training yet?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l02",
+     "prompt": "",
+     "options": [
+      "Not yet. Is there still space?",
+      "Yes, the sign is on the lab door.",
+      "It trains about twenty students."
+     ],
+     "answer": [
+      0
+     ],
+     "explain": "問對方是否已報名實驗室安全訓練，(A)「還沒，還有名額嗎？」直接回應。(B) 的 sign 是「告示牌」，與 sign up（報名）只是字面相似；(C) 重複 train 但沒有回答是否報名。"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "part": 1,
+   "audio": [
+    {
+     "s": "W",
+     "t": "Why don't we meet in the student lounge after class?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l03",
+     "prompt": "",
+     "options": [
+      "Because the class was canceled.",
+      "I met him there last week.",
+      "Sure, that works for me."
+     ],
+     "answer": [
+      2
+     ],
+     "explain": "Why don't we...? 是提議而非詢問原因，(C)「好啊，我可以」是接受提議的自然回應。(A) 誤把問句當成問原因而用 Because 回答；(B) 重複 meet，但講的是過去和別人見面，答非所問。"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "part": 1,
+   "audio": [
+    {
+     "s": "M",
+     "t": "Whose turn is it to present next week?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l04",
+     "prompt": "",
+     "options": [
+      "Next week is fine with me.",
+      "It's a present for my roommate.",
+      "I believe it's Group Four's."
+     ],
+     "answer": [
+      2
+     ],
+     "explain": "Whose turn 問「輪到誰」報告，(C)「我想是第四組」正確回答對象。(A) 只重複 next week，沒有說是誰；(B) 的 present 是名詞「禮物」，利用同形字干擾。"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "part": 1,
+   "audio": [
+    {
+     "s": "W",
+     "t": "Could you tell me where the registrar's office is?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l05",
+     "prompt": "",
+     "options": [
+      "It's on the ground floor of the administration building.",
+      "You can register online until Friday.",
+      "The office closes at five."
+     ],
+     "answer": [
+      0
+     ],
+     "explain": "間接問句詢問註冊組的位置，(A) 回答「在行政大樓一樓」正確。(B) 用 register 與 registrar 的相似發音干擾，講的是線上註冊期限；(C) 回答關門時間而非地點。"
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "part": 1,
+   "audio": [
+    {
+     "s": "M",
+     "t": "The cafeteria line is really long today, isn't it?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l06",
+     "prompt": "",
+     "options": [
+      "No, I had lunch at eleven.",
+      "Yeah, let's try the noodle shop across the street instead.",
+      "It's about two hundred meters long."
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "說話者用附加問句感嘆餐廳排隊很長，(B) 表示同意並建議改去對面麵店，最自然。(A) 講自己幾點吃午餐，沒有回應排隊的事；(C) 把 long 當成實際長度來回答，不合情境。"
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "part": 1,
+   "audio": [
+    {
+     "s": "W",
+     "t": "How often does the shuttle bus to the train station run?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l07",
+     "prompt": "",
+     "options": [
+      "It takes about fifteen minutes.",
+      "From the main gate.",
+      "Every twenty minutes on weekdays."
+     ],
+     "answer": [
+      2
+     ],
+     "explain": "How often 問班次頻率，(C)「平日每二十分鐘一班」正確。(A) 回答的是車程多久（How long）；(B) 回答的是上車地點（Where）。"
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "part": 1,
+   "audio": [
+    {
+     "s": "M",
+     "t": "Would you rather take the morning section or the evening one?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l08",
+     "prompt": "",
+     "options": [
+      "The evening one fits my schedule better.",
+      "Yes, I'd rather take it.",
+      "I took a section of the cake."
+     ],
+     "answer": [
+      0
+     ],
+     "explain": "選擇疑問句要從兩者擇一回答，(A)「晚上那班比較配合我的時間」正確。(B) 選擇疑問句不能用 Yes 回答，也沒說選哪一個；(C) 的 section 指「一塊」蛋糕，只是重複字詞。"
+    }
+   ]
+  },
+  {
+   "id": "L9",
+   "part": 1,
+   "audio": [
+    {
+     "s": "W",
+     "t": "Do you mind if I borrow your notes from Monday's lecture?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l09",
+     "prompt": "",
+     "options": [
+      "Yes, I borrowed them on Monday.",
+      "Not at all. I'll send you photos tonight.",
+      "The lecture was about note taking."
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "Do you mind if...? 表示請求許可，同意時回答 Not at all（一點也不介意），(B) 並說今晚會傳照片，最合適。(A) 重複 borrow 和 Monday，但講的是自己借東西；(C) 重複 lecture、note，卻沒有回應請求。"
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "part": 1,
+   "audio": [
+    {
+     "s": "M",
+     "t": "When is the deadline for the scholarship application?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l10",
+     "prompt": "",
+     "options": [
+      "The end of this month, I think.",
+      "In the scholarship office.",
+      "It's for first year students."
+     ],
+     "answer": [
+      0
+     ],
+     "explain": "When 問截止時間，(A)「我想是這個月底」正確。(B) 回答地點；(C) 回答申請對象，都不是時間。"
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "part": 1,
+   "audio": [
+    {
+     "s": "W",
+     "t": "I can't log in to the course website."
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l11",
+     "prompt": "",
+     "options": [
+      "The course is quite difficult.",
+      "I logged about ten hours last week.",
+      "Have you tried resetting your password?"
+     ],
+     "answer": [
+      2
+     ],
+     "explain": "對方說無法登入課程網站，(C)「你試過重設密碼嗎？」提出解決辦法，最合理。(A) 只重複 course，講的是課程難度；(B) 的 log 是「記錄時數」，利用同字干擾。"
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "part": 1,
+   "audio": [
+    {
+     "s": "M",
+     "t": "Who should I contact about changing my dorm room?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l12",
+     "prompt": "",
+     "options": [
+      "It changed last semester.",
+      "Try the housing office on the first floor.",
+      "My room is on the fifth floor."
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "Who 問換宿舍房間該找誰，(B)「試試一樓的住宿組」指出聯絡單位，正確。(A) 重複 change 但沒回答對象；(C) 重複 room、floor，講的是自己房間的位置。"
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "part": 2,
+   "audio": [
+    {
+     "s": "W",
+     "t": "Hi, I'd like to renew my student parking permit for my scooter."
+    },
+    {
+     "s": "M",
+     "t": "Sure. It's three hundred dollars for the semester. Do you have your vehicle registration with you?"
+    },
+    {
+     "s": "W",
+     "t": "Oh no, I left it at my apartment. Can I show you a photo of it on my phone?"
+    },
+    {
+     "s": "M",
+     "t": "Sorry, we need to see the original document. We're open until five today, so you still have time to go and get it."
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l13",
+     "prompt": "What will the woman probably do next?",
+     "options": [
+      "Pay three hundred dollars by phone",
+      "Go home to get a document",
+      "Take a photo of her scooter"
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "男子說必須看行照正本，並提醒今天開到五點、還來得及回去拿，所以女子最可能回住處拿文件，選 (B)。(A) 三百元是停車證費用，phone 是她想用手機出示照片；(C) 她想出示的是行照照片，而且被拒絕了。"
+    }
+   ]
+  },
+  {
+   "id": "L14",
+   "part": 2,
+   "audio": [
+    {
+     "s": "N",
+     "t": "Attention, please. The main library will close at six p m this Friday, instead of ten p m, for the installation of a new fire alarm system. Books can still be returned through the drop box at the side entrance. Normal opening hours will resume on Saturday morning."
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l14",
+     "prompt": "Why will the library close early on Friday?",
+     "options": [
+      "A new alarm system will be installed.",
+      "A fire damaged the side entrance.",
+      "The drop box is being replaced.",
+      "Staff will attend a safety drill."
+     ],
+     "answer": [
+      0
+     ],
+     "explain": "廣播說週五提早到六點閉館是為了安裝新的火災警報系統，選 (A)。(B) 利用 fire 與 side entrance 拼湊，並沒有發生火災；(C) 還書箱照常可用；(D) 未提到演習。"
+    }
+   ]
+  },
+  {
+   "id": "L15",
+   "part": 2,
+   "audio": [
+    {
+     "s": "M",
+     "t": "Are you going to the talk by the Nobel Prize winning chemist tomorrow?"
+    },
+    {
+     "s": "W",
+     "t": "I want to, but I heard all the seats in the auditorium were taken within an hour."
+    },
+    {
+     "s": "M",
+     "t": "They're showing it live in the lecture hall next door. No ticket needed, but it's first come, first served."
+    },
+    {
+     "s": "W",
+     "t": "Then I'd better get there early."
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l15",
+     "prompt": "How can the woman watch the talk?",
+     "options": [
+      "By buying a ticket at the door",
+      "By watching a recording online later",
+      "By going to a live broadcast in another room"
+     ],
+     "answer": [
+      2
+     ],
+     "explain": "男子說隔壁演講廳會同步轉播，不需要票、先到先入座，所以選 (C)。(A) 禮堂座位已被訂滿，且轉播不需要票；(B) 對話說的是現場直播，沒有提到事後線上錄影。"
+    }
+   ]
+  },
+  {
+   "id": "L16",
+   "part": 2,
+   "audio": [
+    {
+     "s": "W",
+     "t": "Hello, this message is for Daniel Lin. This is Miss Hsu from the student affairs office. Your application for the emergency student loan has been approved. However, we still need a copy of your bank book before we can transfer the money. Please bring it to our office, or email a clear scan, by this Thursday. Thank you."
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l16",
+     "prompt": "What does the speaker ask Daniel to do?",
+     "options": [
+      "Fill out a new application form",
+      "Open a new bank account",
+      "Pay back a loan by Thursday",
+      "Provide a copy of his bank book"
+     ],
+     "answer": [
+      3
+     ],
+     "explain": "留言說申請已核准，但匯款前還需要存摺影本，請他週四前送來或寄掃描檔，選 (D)。(A) 申請已通過，不需重填；(B) 只要存摺影本，沒說要開新帳戶；(C) 週四是交影本的期限，不是還款期限。"
+    }
+   ]
+  },
+  {
+   "id": "L17",
+   "part": 2,
+   "audio": [
+    {
+     "s": "M",
+     "t": "One more thing before we finish. Next Tuesday's class will not be held in this room. We'll meet in the computer lab on the fourth floor, because you'll be practicing with the statistics software. You don't need to bring your laptops, but please do bring the data set I handed out today."
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l17",
+     "prompt": "What should students bring next Tuesday?",
+     "options": [
+      "The data set from today's class",
+      "Their own laptops",
+      "A statistics textbook"
+     ],
+     "answer": [
+      0
+     ],
+     "explain": "教授說不必帶筆電，但一定要帶今天發的資料集，選 (A)。(B) 明確說不需要帶筆電；(C) 提到的是統計軟體，不是課本。"
+    }
+   ]
+  },
+  {
+   "id": "L18",
+   "part": 2,
+   "audio": [
+    {
+     "s": "W",
+     "t": "You look exhausted. Were you up all night again?"
+    },
+    {
+     "s": "M",
+     "t": "Pretty much. My part time job at the convenience store ends at midnight, and then I still have assignments to do."
+    },
+    {
+     "s": "W",
+     "t": "Have you thought about working on campus instead? The language center is hiring evening receptionists, and it's quiet enough that you can study while you work."
+    },
+    {
+     "s": "M",
+     "t": "Really? I'll ask them about it this afternoon."
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l18",
+     "prompt": "What does the woman suggest?",
+     "options": [
+      "Quitting school for a semester",
+      "Doing assignments before work",
+      "Applying for a job on campus",
+      "Studying at the convenience store"
+     ],
+     "answer": [
+      2
+     ],
+     "explain": "女子建議改在校內工作，並說語言中心正在徵晚班櫃台人員，選 (C)。(D) 可以邊工作邊讀書的是語言中心，不是便利商店；(A)(B) 對話中都沒有提到。"
+    }
+   ]
+  },
+  {
+   "id": "L19",
+   "part": 2,
+   "audio": [
+    {
+     "s": "N",
+     "t": "Good news for commuters. From December first, the university will offer a free breakfast to students who arrive on campus by bicycle or on foot before eight a m. Simply scan your student card at the machine beside the east gate and collect your sandwich and drink from the student restaurant. The offer is limited to the first two hundred students each day."
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l19",
+     "prompt": "What must students do to receive the free breakfast?",
+     "options": [
+      "Register online before December first",
+      "Scan their student card at the east gate",
+      "Buy a drink at the student restaurant"
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "廣播說只要在東門旁的機器刷學生證，再到學生餐廳領取即可，選 (B)。(A) 十二月一日是活動開始日，沒有要求線上登記；(C) 三明治和飲料都是免費領取，不必購買。"
+    }
+   ]
+  },
+  {
+   "id": "L20",
+   "part": 2,
+   "audio": [
+    {
+     "s": "M",
+     "t": "Excuse me, I ordered a textbook two weeks ago, and it still hasn't arrived."
+    },
+    {
+     "s": "W",
+     "t": "Let me check. Ah, the publisher is out of stock, so it won't be here until the twentieth."
+    },
+    {
+     "s": "M",
+     "t": "But my midterm is on the eighteenth!"
+    },
+    {
+     "s": "W",
+     "t": "I see. In that case, I can give you a code for the e-book version at no extra cost, and you can still pick up the paper copy when it comes."
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l20",
+     "prompt": "What does the woman offer the man?",
+     "options": [
+      "A full refund",
+      "A used copy of the book",
+      "Faster delivery from the publisher",
+      "Free access to the e-book"
+     ],
+     "answer": [
+      3
+     ],
+     "explain": "店員說可以免費給他電子書代碼，紙本到貨後仍可來領，選 (D)。(A) 沒有提到退款；(B) 沒有提到二手書；(C) 出版社缺貨，要到二十日才到，無法加快。"
+    }
+   ]
+  },
+  {
+   "id": "L21",
+   "part": 2,
+   "audio": [
+    {
+     "s": "W",
+     "t": "Welcome to the university greenhouse. Before we go in, please remember three things. Stay on the marked paths, do not touch the plants in the red pots, because some of them are part of ongoing experiments, and keep the door closed behind you so that the temperature stays stable. Photos are welcome, as long as you don't use a flash."
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l21",
+     "prompt": "Why should visitors avoid touching the plants in red pots?",
+     "options": [
+      "They may be harmful to people.",
+      "They are sensitive to light.",
+      "They are being used in experiments."
+     ],
+     "answer": [
+      2
+     ],
+     "explain": "導覽員說紅色花盆裡的植物有些正在進行實驗，所以不能碰，選 (C)。(A) 沒有說植物有毒；(B) 由「不可用閃光燈」聯想而來，但那是拍照規定，不是不能碰的原因。"
+    }
+   ]
+  },
+  {
+   "id": "L22",
+   "part": 2,
+   "audio": [
+    {
+     "s": "W",
+     "t": "Did you get into the photography elective?"
+    },
+    {
+     "s": "M",
+     "t": "No, it was full. I'm number eight on the waiting list."
+    },
+    {
+     "s": "W",
+     "t": "That's not too bad. Lots of people drop courses in the first week. My friend was number twelve last year, and she still got in."
+    },
+    {
+     "s": "M",
+     "t": "I hope so. If not, I'll take film history instead."
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l22",
+     "prompt": "What does the woman imply?",
+     "options": [
+      "The man should choose film history.",
+      "The man still has a good chance of getting in.",
+      "The photography class is not worth taking.",
+      "Her friend failed to get into the class."
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "女子說第一週很多人會退選，她朋友去年候補第十二名還是選上了，暗示男子仍有機會，選 (B)。(A) 電影史是男子自己的備案；(D) 與事實相反，朋友最後選上了；(C) 沒有提到。"
+    }
+   ]
+  },
+  {
+   "id": "L23",
+   "part": 2,
+   "audio": [
+    {
+     "s": "N",
+     "t": "Thank you for calling the campus counseling center. Our office hours are Monday to Friday, nine a m to five p m. To make an appointment, press one. If you'd like to join a stress management workshop, press two. For urgent help outside office hours, please stay on the line and your call will be transferred to our twenty four hour helpline."
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l23",
+     "prompt": "What should a caller do to sign up for a workshop?",
+     "options": [
+      "Press two",
+      "Press one",
+      "Stay on the line"
+     ],
+     "answer": [
+      0
+     ],
+     "explain": "語音說想參加壓力管理工作坊請按二，選 (A)。(B) 按一是預約諮商；(C) 不掛斷是非上班時間的緊急求助，會轉接二十四小時專線。"
+    }
+   ]
+  },
+  {
+   "id": "L24",
+   "part": 3,
+   "audio": [
+    {
+     "s": "W",
+     "t": "Good morning, everyone, and welcome to the Makerspace. My name is Sandra Lo, and I'm the lab manager. This space is open to students from every department, not just engineering. You can use our three D printers, laser cutters, and sewing machines for class projects or for your own ideas."
+    },
+    {
+     "s": "W",
+     "t": "Before you use any machine, however, you must complete a safety course for that machine. Each course takes about forty minutes, and you can sign up on our website. After you pass, a sticker will be added to your student card, and our staff will check it every time."
+    },
+    {
+     "s": "W",
+     "t": "Using the machines is free, but you pay for the materials you use. For example, printing plastic costs two dollars per gram. You may also bring your own materials, but please show them to a staff member first, because some plastics give off harmful smoke."
+    },
+    {
+     "s": "W",
+     "t": "Finally, we are open from ten a m to eight p m on weekdays. We are closed on weekends, except during the last two weeks of the semester, when we also open on Saturdays."
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l24",
+     "prompt": "Who can use the Makerspace?",
+     "options": [
+      "Only engineering students",
+      "Students from any department",
+      "Students who have paid a membership fee",
+      "Only students working on class projects"
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "主講人說這個空間開放給所有系所的學生，不限工學院，選 (B)。(A) 與 not just engineering 相反；(C) 使用機器免費，沒有會員費；(D) 課堂專題或個人創作都可以。"
+    },
+    {
+     "id": "m1119-l25",
+     "prompt": "What must students do before using a machine?",
+     "options": [
+      "Buy materials from the staff",
+      "Reserve the machine a week ahead",
+      "Get a signature from their professor",
+      "Complete a safety course for that machine"
+     ],
+     "answer": [
+      3
+     ],
+     "explain": "使用任何機器前都必須先完成該機器的安全課程，選 (D)。(A) 材料可以自備，只需先給工作人員檢查；(B)(C) 都沒有提到。"
+    },
+    {
+     "id": "m1119-l26",
+     "prompt": "Which statements are true about the Makerspace? (Choose TWO.)",
+     "options": [
+      "Students pay for the materials they use.",
+      "It is open every Saturday.",
+      "Students may never bring their own materials.",
+      "It opens on Saturdays at the end of the semester.",
+      "Each safety course takes two hours."
+     ],
+     "answer": [
+      0,
+      3
+     ],
+     "explain": "機器免費但材料要自費，(A) 正確；週末原則上不開放，只有學期最後兩週的週六開放，(D) 正確。(B) 並非每個週六都開；(C) 可以自備材料，只是要先給工作人員看過；(E) 每門安全課程約四十分鐘，不是兩小時。"
+    }
+   ]
+  },
+  {
+   "id": "L25",
+   "part": 3,
+   "audio": [
+    {
+     "s": "W",
+     "t": "Thanks for coming back, Jun-hao. Let's talk about your practice interview yesterday."
+    },
+    {
+     "s": "M",
+     "t": "Thank you, Miss Yang. Honestly, I was so nervous that I don't remember much of what I said."
+    },
+    {
+     "s": "W",
+     "t": "You did better than you think. Your answers about your marketing project were clear, and you gave specific numbers, which interviewers like."
+    },
+    {
+     "s": "M",
+     "t": "That's a relief. What should I work on?"
+    },
+    {
+     "s": "W",
+     "t": "Two things. First, you spoke too fast, especially at the beginning. Try pausing for a second before each answer. Second, when I asked why you wanted to join the company, your answer was very general. You should research the company and mention one of its recent products."
+    },
+    {
+     "s": "M",
+     "t": "I see. My real interview is next Friday. Could I do another practice session before then?"
+    },
+    {
+     "s": "W",
+     "t": "I'm fully booked this week, but I have an opening next Wednesday at two. In the meantime, record yourself answering questions on your phone and watch the video."
+    },
+    {
+     "s": "M",
+     "t": "Good idea. I'll book Wednesday and try the recording tonight."
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l27",
+     "prompt": "What did the counselor praise about the student's practice interview?",
+     "options": [
+      "His confident body language",
+      "His knowledge of the company",
+      "His clear answers with specific numbers",
+      "His speed in answering questions"
+     ],
+     "answer": [
+      2
+     ],
+     "explain": "輔導老師稱讚他談行銷專題時回答清楚，還提供具體數字，選 (C)。(B) 正好是他的弱點，被問到為何想進公司時答得太籠統；(D) 講話太快是缺點；(A) 沒有提到肢體語言。"
+    },
+    {
+     "id": "m1119-l28",
+     "prompt": "What does the counselor advise the student to improve? (Choose TWO.)",
+     "options": [
+      "Dress more formally",
+      "Slow down when he speaks",
+      "Arrive at the interview earlier",
+      "Give shorter answers",
+      "Learn more about the company"
+     ],
+     "answer": [
+      1,
+      4
+     ],
+     "explain": "老師指出兩點：講話太快，回答前先停一秒，對應 (B)；回答動機太籠統，應該研究公司並提到近期產品，對應 (E)。(A)(C)(D) 對話中都沒有提到。"
+    },
+    {
+     "id": "m1119-l29",
+     "prompt": "When will the student have his next practice session?",
+     "options": [
+      "Next Wednesday",
+      "Tonight",
+      "This Friday",
+      "Next Friday"
+     ],
+     "answer": [
+      0
+     ],
+     "explain": "老師這週已排滿，下週三兩點有空檔，學生說要預約週三，選 (A)。(B) 今晚是他要自己用手機錄影練習；(D) 下週五是正式面試；(C) 沒有提到這週五。"
+    }
+   ]
+  },
+  {
+   "id": "L26",
+   "part": 3,
+   "audio": [
+    {
+     "s": "N",
+     "t": "This is Campus Report with this week's headlines. First, the Student Association has launched Book Loop, an online platform where students can buy and sell used textbooks. According to a survey by the association, students spend an average of four thousand dollars on textbooks each semester, and nearly half of those books are never opened again after the final exam."
+    },
+    {
+     "s": "N",
+     "t": "On Book Loop, sellers post a photo and a price, and buyers pay when they collect the book at the Student Association office, so there is no need to meet strangers or pay for delivery. The association takes five percent of each sale to cover its costs."
+    },
+    {
+     "s": "N",
+     "t": "In the first two weeks, more than six hundred books were listed, and business and medical textbooks sold fastest. The association's president says the next step is to add lab coats and calculators in the spring."
+    },
+    {
+     "s": "N",
+     "t": "In other news, the annual campus marathon has been moved from December sixth to December thirteenth because of road construction near the north gate."
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l30",
+     "prompt": "What is the main purpose of Book Loop?",
+     "options": [
+      "To let students trade used textbooks",
+      "To deliver new books to dormitories",
+      "To help professors choose textbooks",
+      "To lend library books for a full semester"
+     ],
+     "answer": [
+      0
+     ],
+     "explain": "報導一開始就說 Book Loop 是讓學生買賣二手教科書的線上平台，選 (A)。(B) 平台強調不必付運費，並沒有配送服務；(C)(D) 都沒有提到。"
+    },
+    {
+     "id": "m1119-l31",
+     "prompt": "Where do buyers pay for and receive their books?",
+     "options": [
+      "At the campus bookstore",
+      "At the seller's dormitory",
+      "Through a delivery company",
+      "At the Student Association office"
+     ],
+     "answer": [
+      3
+     ],
+     "explain": "買家到學生會辦公室取書時付款，選 (D)。(B) 平台的優點就是不必和陌生人見面；(C) 不需要運送；(A) 沒有提到校園書店。"
+    },
+    {
+     "id": "m1119-l32",
+     "prompt": "Why was the campus marathon rescheduled?",
+     "options": [
+      "Bad weather is expected.",
+      "There is road work near the north gate.",
+      "Too few runners signed up.",
+      "It clashed with final exams."
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "最後一則新聞說因為北門附近道路施工，馬拉松從十二月六日延到十三日，選 (B)。(A)(C)(D) 都不是報導提到的原因。"
+    }
+   ]
+  },
+  {
+   "id": "L27",
+   "part": 3,
+   "audio": [
+    {
+     "s": "W",
+     "t": "Today's topic is light pollution, which means too much artificial light at night. You might think that more light simply makes cities safer and more convenient, but researchers have found some serious costs."
+    },
+    {
+     "s": "W",
+     "t": "First, consider wildlife. Baby sea turtles find the ocean by moving toward the brightest horizon, which used to be the moon over the water. Now, hotel and street lights lead many of them in the wrong direction. Migrating birds are also confused by bright buildings and often crash into them."
+    },
+    {
+     "s": "W",
+     "t": "Second, there is human health. Our bodies produce a hormone called melatonin in darkness, and it helps us sleep. Bright light at night, especially blue light from screens and L E D lamps, reduces this hormone, so people sleep less deeply."
+    },
+    {
+     "s": "W",
+     "t": "Finally, there is wasted energy. One study estimated that about thirty percent of outdoor lighting in the United States shines up into the sky, where nobody needs it."
+    },
+    {
+     "s": "W",
+     "t": "The good news is that this is one of the easiest kinds of pollution to fix. Covers that point light downward, warmer coloured bulbs, and motion sensors can all make a difference without making streets less safe. For next week, please read chapter nine and note down three sources of light pollution in your own neighbourhood."
+    }
+   ],
+   "questions": [
+    {
+     "id": "m1119-l33",
+     "prompt": "How do baby sea turtles find the ocean?",
+     "options": [
+      "By following the sound of waves",
+      "By following adult turtles",
+      "By moving toward the brightest horizon",
+      "By sensing the water temperature"
+     ],
+     "answer": [
+      2
+     ],
+     "explain": "教授說小海龜會朝最亮的地平線前進，過去那是海面上的月光，選 (C)。現在飯店和路燈讓牠們走錯方向。(A)(B)(D) 都沒有提到。"
+    },
+    {
+     "id": "m1119-l34",
+     "prompt": "According to the lecture, how does bright light at night affect people?",
+     "options": [
+      "It damages their eyesight.",
+      "It makes them feel hungrier.",
+      "It raises their body temperature.",
+      "It reduces a hormone that helps them sleep."
+     ],
+     "answer": [
+      3
+     ],
+     "explain": "夜間強光（尤其是螢幕和 LED 的藍光）會減少幫助睡眠的褪黑激素，使人睡得較淺，選 (D)。(A) 容易由「光」聯想到視力，但講課沒有提到；(B)(C) 也未提及。"
+    },
+    {
+     "id": "m1119-l35",
+     "prompt": "What are students asked to do for next week?",
+     "options": [
+      "Count the streetlights on campus",
+      "List three sources of light pollution near their homes",
+      "Install motion sensors in their homes",
+      "Write a report on sea turtles"
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "教授最後要求讀第九章，並記下自己住家附近三個光害來源，選 (B)。(C) 動作感應器是解決方法的例子，不是作業；(A)(D) 沒有提到。"
+    }
+   ]
+  }
+ ],
+ "reading": [
+  {
+   "id": "R1",
+   "part": 1,
+   "questions": [
+    {
+     "id": "m1119-r01",
+     "prompt": "The seminar room can ______ up to forty people, so we don't need a bigger venue.",
+     "options": [
+      "accommodate",
+      "accompany",
+      "accomplish",
+      "accumulate"
+     ],
+     "answer": [
+      0
+     ],
+     "explain": "accommodate 表示「容納」，句意為研討室最多可容納四十人。(B) accompany 陪伴；(C) accomplish 完成；(D) accumulate 累積，都只是字首相同。"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "part": 1,
+   "questions": [
+    {
+     "id": "m1119-r02",
+     "prompt": "Attendance at the orientation is ______ for all new exchange students; no one may skip it.",
+     "options": [
+      "voluntary",
+      "temporary",
+      "mandatory",
+      "ordinary"
+     ],
+     "answer": [
+      2
+     ],
+     "explain": "後半句說「任何人都不得缺席」，可知是「強制的」mandatory。(A) voluntary 自願的，意思正好相反；(B) temporary 暫時的；(D) ordinary 普通的。"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "part": 1,
+   "questions": [
+    {
+     "id": "m1119-r03",
+     "prompt": "Keep your receipts, and the department will ______ you for your travel expenses after the conference.",
+     "options": [
+      "remind",
+      "reimburse",
+      "replace",
+      "reinforce"
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "保留收據是為了事後「核銷、償還」費用，reimburse sb. for sth. 是固定用法。(A) remind 提醒；(C) replace 取代；(D) reinforce 加強。"
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "part": 1,
+   "questions": [
+    {
+     "id": "m1119-r04",
+     "prompt": "Graduating seniors are given ______ when registering for courses, so they can choose before other students.",
+     "options": [
+      "publicity",
+      "majority",
+      "minority",
+      "priority"
+     ],
+     "answer": [
+      3
+     ],
+     "explain": "「可以比其他學生先選」表示享有「優先權」priority。(A) publicity 宣傳；(B) majority 多數；(C) minority 少數。"
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "part": 1,
+   "questions": [
+    {
+     "id": "m1119-r05",
+     "prompt": "These are only ______ results; the final report will be published after more data are collected.",
+     "options": [
+      "preliminary",
+      "previous",
+      "primitive",
+      "precious"
+     ],
+     "answer": [
+      0
+     ],
+     "explain": "與後面的 final report 對比，這裡是「初步的」結果，選 preliminary。(B) previous 先前的，無法與 only 及後文的對比搭配；(C) primitive 原始的；(D) precious 珍貴的。"
+    }
+   ]
+  },
+  {
+   "id": "R6",
+   "part": 1,
+   "questions": [
+    {
+     "id": "m1119-r06",
+     "prompt": "Before choosing your thesis topic, you should ______ your advisor.",
+     "options": [
+      "consume",
+      "consult",
+      "conclude",
+      "confuse"
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "選論文題目前應該「請教」指導教授，consult 後面直接接人。(A) consume 消耗；(C) conclude 下結論；(D) confuse 使困惑。"
+    }
+   ]
+  },
+  {
+   "id": "R7",
+   "part": 1,
+   "questions": [
+    {
+     "id": "m1119-r07",
+     "prompt": "The elevator is ______ out of service, but it should be working again by Friday.",
+     "options": [
+      "permanently",
+      "originally",
+      "increasingly",
+      "temporarily"
+     ],
+     "answer": [
+      3
+     ],
+     "explain": "後半句說週五前會恢復運作，所以是「暫時」停用，選 temporarily。(A) permanently 永久地，與後文矛盾；(B) originally 原本；(C) increasingly 越來越。"
+    }
+   ]
+  },
+  {
+   "id": "R8",
+   "part": 1,
+   "questions": [
+    {
+     "id": "m1119-r08",
+     "prompt": "Ms. Lin had to ______ the invitation to speak at the forum because she would be abroad that week.",
+     "options": [
+      "decrease",
+      "dedicate",
+      "decline",
+      "decorate"
+     ],
+     "answer": [
+      2
+     ],
+     "explain": "因為那週人在國外，只好「婉拒」邀請，decline an invitation 是常見搭配。(A) decrease 減少；(B) dedicate 奉獻；(D) decorate 裝飾。"
+    }
+   ]
+  },
+  {
+   "id": "R9",
+   "part": 1,
+   "questions": [
+    {
+     "id": "m1119-r09",
+     "prompt": "The walk from the dormitory to the science building takes ______ ten minutes.",
+     "options": [
+      "appropriately",
+      "approximately",
+      "apparently",
+      "absolutely"
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "數字前用 approximately 表示「大約」。(A) appropriately 適當地，拼字相近是主要干擾；(C) apparently 顯然；(D) absolutely 絕對地。"
+    }
+   ]
+  },
+  {
+   "id": "R10",
+   "part": 1,
+   "questions": [
+    {
+     "id": "m1119-r10",
+     "prompt": "Your student card is ______ for four years and must be renewed if you stay longer.",
+     "options": [
+      "valid",
+      "vivid",
+      "vague",
+      "vacant"
+     ],
+     "answer": [
+      0
+     ],
+     "explain": "證件在四年內「有效」用 valid，後文的 renewed（換發）也是線索。(B) vivid 生動的；(C) vague 模糊的；(D) vacant 空著的。"
+    }
+   ]
+  },
+  {
+   "id": "R11",
+   "part": 1,
+   "questions": [
+    {
+     "id": "m1119-r11",
+     "prompt": "The professor asked us to ______ our essays by adding more examples and fixing grammar mistakes.",
+     "options": [
+      "reverse",
+      "reveal",
+      "revive",
+      "revise"
+     ],
+     "answer": [
+      3
+     ],
+     "explain": "增加例子、修正文法就是「修改」文章，選 revise。(A) reverse 顛倒；(B) reveal 揭露；(C) revive 使復甦，都是 rev- 開頭的形似字。"
+    }
+   ]
+  },
+  {
+   "id": "R12",
+   "part": 1,
+   "questions": [
+    {
+     "id": "m1119-r12",
+     "prompt": "Because of low ______, the Tuesday evening yoga class has been canceled.",
+     "options": [
+      "employment",
+      "entertainment",
+      "enrollment",
+      "environment"
+     ],
+     "answer": [
+      2
+     ],
+     "explain": "課程取消的原因是「報名人數」太少，low enrollment 是固定說法。(A) employment 就業；(B) entertainment 娛樂；(D) environment 環境。"
+    }
+   ]
+  },
+  {
+   "id": "R13",
+   "part": 2,
+   "title": "Fire Drill at Willow Hall",
+   "passage": [
+    "A fire drill will be held at Willow Hall on Wednesday, November 26, at 7:30 p.m. All residents who are in the building at that time must take part.",
+    "When the alarm sounds, leave your room immediately and walk down the stairs to the basketball court behind the hall. Do not use the elevators. Floor leaders will check names at the court, so please stay with your floor group until your name has been called. The drill should take about twenty minutes.",
+    "Residents who have an evening class at that time do not need to return for the drill, but they must watch the online safety video and complete the short quiz by November 30.",
+    "Willow Hall Management Office"
+   ],
+   "questions": [
+    {
+     "id": "m1119-r13",
+     "prompt": "Where should residents gather during the drill?",
+     "options": [
+      "In the hall lobby",
+      "Beside the elevators",
+      "On the basketball court",
+      "In the management office"
+     ],
+     "answer": [
+      2
+     ],
+     "explain": "公告說警報響起後要走樓梯到宿舍後方的籃球場，樓長在那裡點名，選 (C)。(B) 公告明說不可搭電梯；(D) 管理室只是發布公告的單位；(A) 未提及大廳。"
+    },
+    {
+     "id": "m1119-r14",
+     "prompt": "What must residents who have a class during the drill do?",
+     "options": [
+      "Ask the floor leader for permission",
+      "Watch a video and take a quiz",
+      "Join another hall's drill",
+      "Return to the hall within twenty minutes"
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "最後一段說當時有晚課的住宿生不必趕回來，但要在十一月三十日前看完線上安全影片並完成測驗，選 (B)。(D) 二十分鐘是演習所需時間；(A)(C) 文中沒有提到。"
+    }
+   ]
+  },
+  {
+   "id": "R14",
+   "part": 2,
+   "title": "Goggles and Lab Coats",
+   "head": [
+    "From: Kevin Chiu (Teaching Assistant)",
+    "To: CHEM 201 Section B",
+    "Subject: Goggles and lab coats for next week"
+   ],
+   "passage": [
+    "Hi everyone,",
+    "Starting next week, we will be working with acids, so safety goggles and a lab coat are required. Anyone without them will not be allowed into the lab and will receive a zero for that experiment.",
+    "You can buy both at the campus bookstore, but the department also lends lab coats for a deposit of NT$200, which is returned at the end of the semester. Goggles cannot be borrowed for hygiene reasons. If you want to borrow a coat, come to Room 312 on Friday between 1:00 and 4:00 p.m. and bring your student card.",
+    "Also, long hair must be tied back, and sandals are not permitted.",
+    "See you in the lab,",
+    "Kevin"
+   ],
+   "questions": [
+    {
+     "id": "m1119-r15",
+     "prompt": "What happens to students who come to the lab without safety equipment?",
+     "options": [
+      "They must pay a NT$200 fine.",
+      "They can only watch the experiment.",
+      "They must borrow equipment from a classmate.",
+      "They get no points for the experiment."
+     ],
+     "answer": [
+      3
+     ],
+     "explain": "信中說沒有護目鏡和實驗衣的人不得進入實驗室，該次實驗以零分計，選 (D)。(A) NT$200 是借實驗衣的押金，不是罰款；(B) 連實驗室都不能進，無法旁觀；(C) 未提及。"
+    },
+    {
+     "id": "m1119-r16",
+     "prompt": "What is true about goggles?",
+     "options": [
+      "Students must get their own.",
+      "They can be borrowed on Friday.",
+      "They require a deposit.",
+      "They are not needed until the end of the semester."
+     ],
+     "answer": [
+      0
+     ],
+     "explain": "基於衛生理由護目鏡不外借，學生必須自備（例如到校園書店購買），選 (A)。(B)(C) 週五可借、要付押金的是實驗衣；(D) 下週起就必須配戴，學期末是退還押金的時間。"
+    }
+   ]
+  },
+  {
+   "id": "R15",
+   "part": 2,
+   "title": "Text Messages",
+   "passage": [
+    "Amber (2:14 p.m.): Are you still at the library? The printer in our dorm is broken, and I need to print my poster for tomorrow's presentation.",
+    "Leo (2:16 p.m.): I'm here till 4. But the library printers only do A4. For a poster you need the print shop in the Student Center.",
+    "Amber (2:17 p.m.): Ugh. How late are they open?",
+    "Leo (2:19 p.m.): Until 6, I think. But posters take about an hour to print, so don't go at the last minute. And send the file as a PDF. They charged me extra last time to convert it.",
+    "Amber (2:20 p.m.): Good to know. I'll finish my class at 3 and go straight there. Thanks!"
+   ],
+   "questions": [
+    {
+     "id": "m1119-r17",
+     "prompt": "Why can't Amber print her poster at the library?",
+     "options": [
+      "The library closes at 4:00.",
+      "The library printers are broken.",
+      "The printers there cannot print that size.",
+      "She does not have a library account."
+     ],
+     "answer": [
+      2
+     ],
+     "explain": "Leo 說圖書館的印表機只能印 A4，海報要到學生中心的影印店，選 (C)。(B) 壞掉的是宿舍的印表機；(A) 四點是 Leo 待在圖書館的時間，不是閉館時間；(D) 未提及。"
+    },
+    {
+     "id": "m1119-r18",
+     "prompt": "What does Leo advise Amber to do?",
+     "options": [
+      "Go to the print shop after 6:00",
+      "Bring the file in PDF format",
+      "Skip her 3:00 class",
+      "Pay extra for faster printing"
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "Leo 提醒她把檔案存成 PDF，因為他上次被多收了轉檔費，選 (B)。(A) 影印店大約開到六點，而且海報要印一小時，不能太晚去；(D) 多付錢是 Leo 上次轉檔的經驗，不是建議；(C) Amber 是下課後才去。"
+    }
+   ]
+  },
+  {
+   "id": "R16",
+   "part": 2,
+   "title": "Field Trip Registration Form",
+   "passage": [
+    "Course: GEOG 220 Coastal Environments",
+    "Trip: Northeast Coast Geology Field Trip, Saturday, December 6",
+    "Departure: 7:00 a.m. from the Main Gate (the bus will not wait for latecomers). Return: about 6:30 p.m.",
+    "Fee: NT$450 (covers bus and insurance; lunch is NOT included)",
+    "Student name: Tsai Pei-shan / Student ID: 112204031",
+    "Emergency contact: Tsai Ming-de (father), 0912-555-018",
+    "Do you get carsick? [x] Yes [ ] No",
+    "Notes: Submit this form with the fee to the department office by November 28. Students who cancel after December 1 will not receive a refund. Wear non-slip shoes and bring a raincoat; umbrellas are not suitable on the rocks."
+   ],
+   "questions": [
+    {
+     "id": "m1119-r19",
+     "prompt": "What is included in the fee?",
+     "options": [
+      "Lunch and insurance",
+      "A raincoat and non-slip shoes",
+      "Transportation and lunch",
+      "Transportation and insurance"
+     ],
+     "answer": [
+      3
+     ],
+     "explain": "表單註明費用 NT$450 包含遊覽車和保險，午餐不含，選 (D)。(A)(C) 都含午餐，與 NOT included 不符；(B) 雨衣和防滑鞋要自己準備。"
+    },
+    {
+     "id": "m1119-r20",
+     "prompt": "What can be inferred from the form?",
+     "options": [
+      "Pei-shan may feel sick on the bus.",
+      "The bus leaves from the department office.",
+      "Students should bring umbrellas.",
+      "Refunds are available until the day of the trip."
+     ],
+     "answer": [
+      0
+     ],
+     "explain": "「是否會暈車」一欄勾選 Yes，可推知佩珊搭車可能不舒服，選 (A)。(B) 出發地點是校門口，系辦是交表單和費用的地方；(C) 表單說岩石上不適合撐傘，應帶雨衣；(D) 十二月一日之後取消就不退費。"
+    }
+   ]
+  },
+  {
+   "id": "R17",
+   "part": 2,
+   "title": "Participants Wanted: Memory and Music Study",
+   "passage": [
+    "The Department of Psychology is looking for 60 students to take part in a study on how background music affects memory.",
+    "Participants will come to the Psychology Building twice, one week apart. Each session lasts 45 minutes. In each session, you will study a list of words while listening to different kinds of music and then take a short test. You will receive a NT$300 convenience store voucher after completing the second session. Those who attend only the first session will not be paid.",
+    "You must be a native speaker of Mandarin, aged 18 to 25, with normal hearing. Students who have taken PSY 305 (Human Memory) cannot participate.",
+    "To sign up, scan the QR code on this poster or email memorylab@univ.edu by December 5."
+   ],
+   "questions": [
+    {
+     "id": "m1119-r21",
+     "prompt": "When do participants receive the voucher?",
+     "options": [
+      "When they sign up by email",
+      "After the first session",
+      "After finishing both sessions",
+      "One week after the study ends"
+     ],
+     "answer": [
+      2
+     ],
+     "explain": "文中說完成第二次實驗後才會拿到 NT$300 禮券，只參加第一次的人沒有報酬，選 (C)。(B) 與文意相反；(D) 「一週」是兩次實驗的間隔；(A) 報名時不會發放。"
+    },
+    {
+     "id": "m1119-r22",
+     "prompt": "Who is NOT able to join the study?",
+     "options": [
+      "A 20-year-old with normal hearing",
+      "A student who has completed PSY 305",
+      "A native Mandarin speaker",
+      "A student who has never studied psychology"
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "修過 PSY 305（人類記憶）的學生不能參加，選 (B)。(A)(C) 都符合條件（十八到二十五歲、聽力正常、母語為中文）；(D) 沒修過心理學並不在排除條件內。"
+    }
+   ]
+  },
+  {
+   "id": "R18",
+   "part": 3,
+   "title": "Therapy Dogs Help Students Relax before Finals",
+   "passage": [
+    "For one week every December, the second floor of the Student Center at Lakeside University sounds more like a park than a study space. Ten trained therapy dogs and their owners visit campus as part of \"Paws and Relax,\" a program started three years ago by the university counseling center.",
+    "The idea came from counselor Rita Kuo, who noticed that many students were unwilling to visit the counseling center even when they were under great stress. \"Some students think that asking for help means they are weak,\" she says. \"But nobody feels embarrassed about playing with a dog.\" While students are waiting in line or petting the animals, counselors chat with them casually and hand out information about sleep, time management, and the center's services.",
+    "The results have been encouraging. In a survey of last year's 800 visitors, 92 percent said they felt calmer after a fifteen-minute session. More importantly, the number of first-time visits to the counseling center in the following month rose by a third.",
+    "The program has rules to protect the animals as well. Each dog works no more than two hours a day, and groups are limited to six students at a time. Students must wash their hands before entering and may not feed the dogs. \"The dogs are volunteers, too,\" Kuo says with a smile. \"We want them to enjoy it as much as the students do.\"",
+    "This year, because of high demand, students need to book a time online. Walk-in visitors will be admitted only if there are empty places."
+   ],
+   "questions": [
+    {
+     "id": "m1119-r23",
+     "prompt": "Why did Rita Kuo start the program?",
+     "options": [
+      "To raise money for the counseling center",
+      "To train students to work with animals",
+      "To find homes for dogs without owners",
+      "To reach students who avoid asking for help"
+     ],
+     "answer": [
+      3
+     ],
+     "explain": "第二段說郭老師發現許多學生壓力再大也不願意去諮商中心，覺得求助代表軟弱，但和狗玩不會尷尬，因此藉此接觸這些學生，選 (D)。(C) 治療犬都有主人陪同；(A)(B) 文中未提及。"
+    },
+    {
+     "id": "m1119-r24",
+     "prompt": "What do counselors do during the sessions?",
+     "options": [
+      "Talk with students informally and share information",
+      "Give students a fifteen-minute test",
+      "Teach students how to train dogs",
+      "Record the names of stressed students"
+     ],
+     "answer": [
+      0
+     ],
+     "explain": "第二段說學生排隊或摸狗時，諮商師會和他們輕鬆聊天，並發放睡眠、時間管理和中心服務的資料，選 (A)。(B) 十五分鐘是每場活動的長度，不是測驗；(C)(D) 未提及。"
+    },
+    {
+     "id": "m1119-r25",
+     "prompt": "What does the survey in the third paragraph suggest?",
+     "options": [
+      "Most visitors already used the counseling center.",
+      "Students wanted longer sessions.",
+      "More students went to the counseling center for the first time afterward.",
+      "A third of visitors did not feel calmer."
+     ],
+     "answer": [
+      2
+     ],
+     "explain": "第三段指出活動後一個月，首次到諮商中心的人數增加了三分之一，選 (C)。(D) 誤用 a third：百分之九十二的人覺得比較平靜，三分之一指的是首次來訪人數的增幅；(A)(B) 沒有根據。"
+    },
+    {
+     "id": "m1119-r26",
+     "prompt": "Which is true about this year's program?",
+     "options": [
+      "Dogs work up to six hours a day.",
+      "Booking online is the surest way to get in.",
+      "Students may bring snacks for the dogs.",
+      "Walk-in visitors are not accepted at all."
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "最後一段說今年需要線上預約，現場來的人只有在有空位時才能進場，所以線上預約最保險，選 (B)。(D) 太絕對，有空位時仍可進場；(A) 每隻狗每天最多工作兩小時，六是每組學生人數上限；(C) 不可餵食。"
+    }
+   ]
+  },
+  {
+   "id": "R19",
+   "part": 3,
+   "title": "What a Semester Off Taught Me",
+   "passage": [
+    "At the end of my second year, I did something that shocked my parents: I applied to suspend my studies for one semester. I wasn't failing. In fact, my grades were fine. The problem was that I had chosen accounting because it seemed safe, and I could no longer explain to myself why I was studying it.",
+    "My parents worried that I would fall behind my classmates, and to be honest, so did I. To persuade them, I wrote a plan with three goals: work full-time for three months, pay my own living costs, and talk to at least ten people about their jobs.",
+    "I found a position at a small company that exports bicycle parts. I expected to be bored. Instead, I discovered that the numbers I had studied in class told stories. A late payment from a customer in Europe meant that we could not order materials, which meant that an entire shipment was delayed. For the first time, accounting felt like solving a puzzle rather than memorizing rules.",
+    "The interviews were just as valuable. A nurse, a baker, and a software engineer all told me the same thing in different words: no job is interesting every day, and what matters is whether you care about the problem you are solving.",
+    "I returned to school in February, one semester behind my friends, but with a clear reason for being there. I also added courses in international trade. Taking time off is not right for everyone, and it does cost time and money. But if you feel lost, stepping away for a while may be the fastest way forward."
+   ],
+   "questions": [
+    {
+     "id": "m1119-r27",
+     "prompt": "Why did the writer take a semester off?",
+     "options": [
+      "The writer's grades were too low to continue.",
+      "The writer was unsure about the reason for studying accounting.",
+      "The writer's parents could not afford the tuition.",
+      "The writer was offered a full-time job abroad."
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "第一段說成績沒問題，問題是當初因為「穩定」才選會計，後來說不出自己為什麼要讀，選 (B)。(A) 與 my grades were fine 相反；(C)(D) 文中未提及。"
+    },
+    {
+     "id": "m1119-r28",
+     "prompt": "What did the writer do to persuade the parents?",
+     "options": [
+      "Promised to graduate on time",
+      "Found a job at a relative's company",
+      "Asked a professor to speak to them",
+      "Prepared a plan with specific goals"
+     ],
+     "answer": [
+      3
+     ],
+     "explain": "第二段說為了說服父母，作者寫了一份包含三個目標的計畫，選 (D)。(A) 作者後來比同學晚一學期，並沒有承諾準時畢業；(B) 工作是自己找的出口公司，未說是親戚的；(C) 未提及。"
+    },
+    {
+     "id": "m1119-r29",
+     "prompt": "What did the writer learn at the bicycle parts company?",
+     "options": [
+      "Accounting numbers reflect real business events.",
+      "Exporting is more boring than expected.",
+      "European customers always pay late.",
+      "Memorizing rules is the key to accounting."
+     ],
+     "answer": [
+      0
+     ],
+     "explain": "第三段說作者發現課堂上的數字背後有故事：一筆延遲的貨款會讓整批出貨延後，會計變得像解謎，選 (A)。(B) 作者原以為會無聊，結果相反；(C) 只是一個例子，不能推論成 always；(D) 與「不再是背規則」相反。"
+    },
+    {
+     "id": "m1119-r30",
+     "prompt": "What is the writer's attitude toward taking time off from school?",
+     "options": [
+      "Everyone should do it before graduating.",
+      "It is a waste of time and money.",
+      "It can be helpful, though it has costs.",
+      "It is only useful for accounting majors."
+     ],
+     "answer": [
+      2
+     ],
+     "explain": "最後一段說休學不見得適合每個人，也確實要付出時間和金錢，但感到迷惘時可能是最快的前進方式，態度是有保留的肯定，選 (C)。(A) 與 not right for everyone 矛盾；(B) 太負面；(D) 沒有根據。"
+    }
+   ]
+  },
+  {
+   "id": "R20",
+   "part": 3,
+   "title": "Student Housing Options for the Next Academic Year",
+   "passage": [
+    "The Housing Office will accept applications for the next academic year from December 1 to December 15. All applications must be made through the online housing system. Students may list up to two choices. Rooms are assigned by lottery, not in order of application, so there is no advantage in applying early.",
+    "Please note the following. First-year students are guaranteed a place but may apply only to Banyan Hall or Cedar Hall. River View Apartments are reserved for third- and fourth-year students and graduate students. Students who receive a room must pay a deposit equal to one month's rent by January 10, or the room will be offered to someone on the waiting list.",
+    "Rent is charged for ten months each academic year. Students who stay during the summer pay separately. Residents of halls without kitchens are required to buy a meal plan, which costs NT$2,500 a month."
+   ],
+   "table": {
+    "caption": "Housing options and monthly rent (per person)",
+    "headers": [
+     "Residence",
+     "Room type",
+     "Monthly rent",
+     "Kitchen",
+     "Distance to campus center"
+    ],
+    "rows": [
+     [
+      "Banyan Hall",
+      "4-person room",
+      "NT$2,200",
+      "No",
+      "5-minute walk"
+     ],
+     [
+      "Cedar Hall",
+      "2-person room",
+      "NT$3,600",
+      "No",
+      "8-minute walk"
+     ],
+     [
+      "Maple House",
+      "2-person room",
+      "NT$4,000",
+      "Shared, on each floor",
+      "10-minute walk"
+     ],
+     [
+      "River View Apartments",
+      "Single room",
+      "NT$6,500",
+      "Private",
+      "15 minutes by shuttle bus"
+     ]
+    ]
+   },
+   "questions": [
+    {
+     "id": "m1119-r31",
+     "prompt": "How are rooms assigned?",
+     "options": [
+      "By students' grades",
+      "In order of application",
+      "By lottery",
+      "By year of study"
+     ],
+     "answer": [
+      2
+     ],
+     "explain": "第一段說房間以抽籤方式分配，不是依申請先後，所以早申請沒有好處，選 (C)。(B) 正是文中否定的方式；(A)(D) 未提及以成績或年級分配。"
+    },
+    {
+     "id": "m1119-r32",
+     "prompt": "Which residence can a first-year student apply to?",
+     "options": [
+      "Maple House",
+      "Cedar Hall",
+      "River View Apartments",
+      "Any residence with a kitchen"
+     ],
+     "answer": [
+      1
+     ],
+     "explain": "第二段說大一新生只能申請 Banyan Hall 或 Cedar Hall，選 (B)。(C) River View 保留給大三、大四和研究生；(A) Maple House 不在新生可申請的範圍；(D) 新生可申請的兩棟宿舍其實都沒有廚房。"
+    },
+    {
+     "id": "m1119-r33",
+     "prompt": "How much is the deposit for a room in Maple House?",
+     "options": [
+      "NT$4,000",
+      "NT$2,500",
+      "NT$6,500",
+      "NT$40,000"
+     ],
+     "answer": [
+      0
+     ],
+     "explain": "需同時看文章與表格：文章說押金等於一個月房租，表格顯示 Maple House 月租 NT$4,000，選 (A)。(B) 是餐費方案的月費；(C) 是 River View 的月租；(D) 是十個月房租的總額。"
+    },
+    {
+     "id": "m1119-r34",
+     "prompt": "How much does a Cedar Hall resident pay each month for rent and the required meal plan together?",
+     "options": [
+      "NT$3,600",
+      "NT$4,700",
+      "NT$6,500",
+      "NT$6,100"
+     ],
+     "answer": [
+      3
+     ],
+     "explain": "需同時看文章與表格：Cedar Hall 沒有廚房，必須購買每月 NT$2,500 的餐費方案，加上月租 NT$3,600，共 NT$6,100，選 (D)。(A) 只算房租；(B) 是 Banyan Hall 的房租加餐費；(C) 是 River View 的月租。"
+    },
+    {
+     "id": "m1119-r35",
+     "prompt": "What will happen if a student does not pay the deposit by January 10?",
+     "options": [
+      "The student will be charged a late fee.",
+      "The student will be moved to Banyan Hall.",
+      "The rent will increase the following month.",
+      "The room will be given to another student."
+     ],
+     "answer": [
+      3
+     ],
+     "explain": "第二段說一月十日前未繳押金，房間就會讓給候補名單上的人，選 (D)。(A)(B)(C) 文中都沒有提到。"
+    }
+   ]
+  }
+ ]
+}

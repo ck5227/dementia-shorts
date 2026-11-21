@@ -18,11 +18,15 @@ from upload_youtube import access_token, clip_bytes, post_json, MAX_DESC_BYTES  
 
 
 def main():
-    url = os.environ["VIDEO_URL"]
-    if not url.startswith("https://github.com/ck5227/"):
-        sys.exit("VIDEO_URL must be a ck5227 GitHub release asset")
-    with urllib.request.urlopen(url, timeout=600) as r:
-        data = r.read()
+    path = os.environ.get("VIDEO_PATH")
+    if path:
+        data = open(path, "rb").read()
+    else:
+        url = os.environ["VIDEO_URL"]
+        if not url.startswith("https://github.com/ck5227/"):
+            sys.exit("VIDEO_URL must be a ck5227 GitHub release asset")
+        with urllib.request.urlopen(url, timeout=600) as r:
+            data = r.read()
     clean = lambda s: s.replace("<", "").replace(">", "")
     tags = [t.strip() for t in os.environ.get("TAGS", "").split(",") if t.strip()]
     status = {"privacyStatus": os.environ.get("PRIVACY") or "public",
