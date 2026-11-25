@@ -239,7 +239,7 @@ def main(ep_path, out_path):
             # progress bar + watermark
             prog = (elapsed + ts) / total
             d.rectangle((0, H - 14, int(W * prog), H), fill=ACCENT)
-            d.text((90, 150), "顧好大腦 · 每日一分鐘", font=wm, fill=MUTED)
+            d.text((90, 150), ep.get("watermark", "顧好大腦 · 每日一分鐘"), font=wm, fill=MUTED)
             p.stdin.write(frame.tobytes())
         elapsed += s["secs"]
     p.stdin.close()

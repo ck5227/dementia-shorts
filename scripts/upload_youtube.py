@@ -4,7 +4,8 @@
 Usage: python3 scripts/upload_youtube.py NAME     (e.g. 2026-11-19 or 2026-11-19-classic)
 
 Needs env: YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN (OAuth, scope youtube.upload).
-Publishes at NAME's date 07:30 Asia/Taipei (scheduled, via publishAt); if that time has
+Publishes at NAME's date 07:30 Asia/Taipei, or at the episode's optional "publish_time"
+("HH:MM", e.g. "19:30" for the 爭議醫學法庭 series) (scheduled, via publishAt); if that time has
 already passed (or is < 15 min away), publishes immediately as public.
 Writes episodes/NAME.youtube.json with the video id on success.
 """
@@ -59,7 +60,8 @@ def main(name):
         return
 
     d = dt.date.fromisoformat(ep["date"])
-    when = dt.datetime(d.year, d.month, d.day, 7, 30, tzinfo=TAIPEI)
+    hh, mm = (int(x) for x in ep.get("publish_time", "07:30").split(":"))
+    when = dt.datetime(d.year, d.month, d.day, hh, mm, tzinfo=TAIPEI)
     now = dt.datetime.now(TAIPEI)
     status = {"selfDeclaredMadeForKids": False, "containsSyntheticMedia": False,
               "embeddable": True, "license": "youtube"}
