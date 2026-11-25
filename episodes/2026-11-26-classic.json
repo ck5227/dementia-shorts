@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-26",
+  "episode": 14,
+  "classic": true,
+  "title_zh": "吃降膽固醇藥，能預防失智嗎？",
+  "title_en": "Can Cholesterol Pills Prevent Dementia?",
+  "youtube_title": "吃降膽固醇藥，能防失智嗎？｜2 萬 6 千人經典研究：防不了，但不傷記性 #Shorts #失智預防",
+  "youtube_description": "吃降膽固醇藥，能預防失智嗎？答案：沒有幫助。英國等地約 2 萬 6 千人（40–82 歲、心臟血管風險高）分兩組，每天吃降膽固醇藥或假藥 3 到 5 年：兩組失智的人一樣多（失智人數只有英國 2 萬人那個研究有算：每 1000 人都是約 3 人），5 種記性、反應測驗的分數也差不多。\n你可以做：已經在吃降膽固醇藥，就照醫師說的吃，研究裡吃藥的人記性沒有變差；想停藥或換藥，先問醫師。這個藥是用來顧心臟血管，不是用來防失智。可信度：★★★☆☆ 還算可靠。\n\n【給醫療專業人員 For professionals】\n研究：Cochrane 系統性回顧（2016，搜尋至 2015-11-11），納入 2 個雙盲、隨機、安慰劑對照試驗，共 26,340 人（11,610 人 ≥70 歲），低偏差風險。\nHPS 2002（英國）：simvastatin 40 mg/天 vs 安慰劑，20,536 人，40–80 歲，平均追蹤 5 年；收案時未評估認知。PROSPER 2002（蘇格蘭、愛爾蘭、荷蘭）：pravastatin 40 mg vs 安慰劑，5,804 人，70–82 歲（平均 75.4 歲），平均追蹤 3.2 年。\n失智發生（僅 HPS）：31/10,269（0.3%）vs 31/10,267（0.3%），OR 1.00（95% CI 0.61–1.65）。\n認知：5 種測驗皆無差異（PROSPER MMSE 平均差 0.06，95% CI −0.04 to 0.16；HPS TICS-m 0.02，−0.12 to 0.16）。\n安全性：因不良事件停藥 4.5% vs 4.8%，OR 0.94（0.83–1.05）。\n限制：認知只是兩試驗的第三順位結果、量表不同；只納入中高血管風險者；多為晚年才開始用藥，中年開始使用的長期效果未知；失智事件少（5 年 0.3%）、信賴區間寬，且 HPS 未清楚說明失智診斷標準。\n後續：STAREE（NEJM 2026，DOI 10.1056/NEJMoa2607314）澳洲 9,971 位 ≥70 歲、無心血管病、糖尿病或失智者，atorvastatin 40 mg vs 安慰劑，追蹤中位數 5.9 年：主要心血管事件 HR 0.70（0.61–0.82）；無失智且無失能存活（含死亡、失智、持續失能）HR 0.94（0.84–1.05），未達顯著；肌肉、肝膽與糖尿病相關不良事件較多（數字取自 ESC 新聞稿與會議報導）。PREVENTABLE 試驗仍在進行。Lancet Commission 2024 將中年高 LDL 列為失智危險因子，主要依據觀察性研究。\n\n證據等級 GRADE（依 Cochrane 原文）：失智發生 中等 Moderate（因不精確降級）；認知測驗 高 High。本片星數依主要結果（失智）給 3 顆。\n\nA 2016 Cochrane review of two placebo-controlled trials (HPS, PROSPER; 26,340 people) found statins started in later life did not prevent dementia (31 vs 31 cases; OR 1.00, 95% CI 0.61–1.65; moderate certainty) and did not change scores on five cognitive tests (high certainty).\n\n來源 Source: Cochrane Database of Systematic Reviews, 2016 · McGuinness B, Craig D, Bullock R, Passmore P. Statins for the prevention of dementia. DOI: 10.1002/14651858.CD003160.pub3\n\n本影片為衛教資訊，不取代個人醫療建議。\nFor education only; not medical advice.\n\n#失智預防 #膽固醇 #降膽固醇藥 #他汀 #記憶力 #長輩健康 #經典研究 #dementia #statins #brainhealth #Shorts",
+  "tags": [
+    "失智預防",
+    "膽固醇",
+    "降膽固醇藥",
+    "他汀",
+    "記憶力",
+    "失智症",
+    "長輩健康",
+    "經典研究",
+    "dementia prevention",
+    "statins",
+    "cholesterol",
+    "Shorts"
+  ],
+  "slides": [
+    {
+      "kind": "hook",
+      "kicker": "經典研究 · Classic study",
+      "zh": "吃降膽固醇藥\n能預防\n失智嗎？",
+      "en": "Cholesterol pills:\ncan they prevent\ndementia?",
+      "secs": 6
+    },
+    {
+      "kind": "study",
+      "label": "研究怎麼做 Who & how",
+      "zh": "英國等地 2 萬 6 千人\n40 到 82 歲\n心臟、血管不太好",
+      "en": "About 26,000 in Britain & Europe\nAge 40 to 82\nHeart or blood vessel risks",
+      "secs": 8
+    },
+    {
+      "kind": "method",
+      "label": "他們做了什麼 What they did",
+      "zh": "把人分兩組比較\n一組每天吃降膽固醇藥\n一組每天吃假藥",
+      "en": "Two groups were compared\nOne took a cholesterol pill\nThe other took a fake pill",
+      "secs": 8
+    },
+    {
+      "kind": "result",
+      "label": "結果 What happened",
+      "answer": "答案：沒有幫助",
+      "bars_title": "英國 2 萬人：約 5 年內\n變成失智（每 1000 人）",
+      "zh": "兩組失智的人一樣多\n記性測驗也差不多",
+      "en": "Same number got dementia\nMemory tests: about the same",
+      "secs": 10,
+      "unit": "人",
+      "bars": [
+        {
+          "name": "降膽固醇藥\nCholesterol pill",
+          "value": 3
+        },
+        {
+          "name": "假藥\nFake pill",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "kind": "caveat",
+      "label": "要注意 Keep in mind",
+      "zh": "• 大多是年紀大才開始吃\n• 中年就吃有沒有用？不知道\n• 得失智的人少，難比較",
+      "en": "• Most began pills late in life\n• Starting in midlife: unknown\n• Few dementia cases to compare",
+      "secs": 9
+    },
+    {
+      "kind": "takeaway",
+      "label": "你今天可以做 Try this",
+      "stars": 3,
+      "zh": "有在吃，照醫師說的吃\n研究裡吃藥記性沒變差\n停藥、換藥，先問醫師",
+      "en": "Take your pills as told\nMemory did not get worse\nAsk your doctor before stopping",
+      "source": "Cochrane Review, 2016 · HPS & PROSPER",
+      "secs": 9
+    }
+  ]
+}
